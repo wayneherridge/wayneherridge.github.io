@@ -28,7 +28,7 @@ header h2 {
 nav {background-color: #111;}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
-nav li.active{background-color: #333;}
+nav li.active {background-color: #333;}
 
 nav a {
     display: block;
@@ -53,6 +53,8 @@ main figure {
     margin: 0;
 }
 main figcaption {text-align: center; font-size: .8rem;}
+
+div.news{column-count: 2;}
 
 footer {
     text-align: center;
