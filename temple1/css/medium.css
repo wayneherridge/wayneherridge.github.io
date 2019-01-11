@@ -9,6 +9,10 @@ main figure{
     padding-bottom: .5rem;
 }
 
+main h2 {
+    color: #17a8e4;
+    text-align: left;}
+
 div.news {
     clear: both;
     column-count: 3;
