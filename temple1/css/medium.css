@@ -16,7 +16,8 @@ main h2 {
 div.news {
     clear: both;
     column-count: 3;
-    /* column-rule: 1px solid #ddd; */
+    column-rule: 1px solid #ddd;
+    vertical-align: top;
 }
 
 } /* end of media query */
