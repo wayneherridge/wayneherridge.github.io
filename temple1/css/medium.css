@@ -9,6 +9,8 @@ main figure{
     padding-bottom: .5rem;
 }
 
+a:link {color:#8cc168;}
+
 main h1 {
 		text-align: left;
 }
