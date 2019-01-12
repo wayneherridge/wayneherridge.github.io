@@ -9,8 +9,12 @@ main figure{
     padding-bottom: .5rem;
 }
 
+main h1 {
+		text-align: left;
+}
+
 main h2 {
-    color: #17a8e4;
+    color: #8cc168;
     text-align: left;}
 
 div.news {
