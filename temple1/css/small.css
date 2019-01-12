@@ -21,6 +21,7 @@ header h1 {
 
 header h2 {
     margin: 0;
+    padding: 0;
 }
 
 a:link {color:#8cc168;}
