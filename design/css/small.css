@@ -15,11 +15,12 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #d8e8c5;
 }
 header img {float: left; margin-right: 10px; width: 50px}
 header h1 {margin: 0; font-size: 1.3rem;}
 header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -33,7 +34,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #eee;
+    color: #d8e8c5;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -43,10 +44,10 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #aaa;
-    color: #333;
+    color: #fff;
 }
 nav ul li.active a {
-    background-color: #000;
+    background-color: #3db3db;
     color: #fff;
 }
 /*----------- MAIN --------------*/
@@ -55,12 +56,33 @@ main {
     min-height: 10rem;
 }
 
+main h1 {color: #3db3db;}
+main h2 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px
+}
+
+main figure.myphoto {
+    width: 100%;
+    margin: 0 0 0 0;
+    float: right;
+}
+
+main figure.myphoto img {
+    width: 100%;
+}
+main figure.myphoto figcaption {
+    text-align: center;
+    font-size: .7rem;
+}
+
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #d8e8c5;
     padding: .5rem 2%;
     text-align: center;
+    margin-top: 10px;
 }
 
 

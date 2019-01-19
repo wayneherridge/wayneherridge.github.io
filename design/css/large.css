@@ -20,6 +20,19 @@
 
 /*----------- MAIN --------------*/
 
+    main figure.myphoto {
+    width: 33%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+main figure.myphoto img {
+    width: 100%;
+}
+main figure.myphoto figcaption {
+    text-align: center;
+    font-size: .7rem;
+}
 
 
 /*----------- FOOTER --------------*/
