@@ -58,9 +58,12 @@ main {
 
 main h1 {color: #3db3db;}
 main h2 {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px
+    padding: 0 0 0 0;
+    margin: 0 0 .1rem 0;
 }
+
+main p {margin: 0 0 1.7rem 0;}
+
 
 main figure.myphoto {
     width: 100%;
