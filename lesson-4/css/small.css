@@ -6,9 +6,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 /*----------- BODY --------------*/
-body {
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
+body 
+{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -17,14 +18,14 @@ header {
     padding: .5rem 2%;
     background-color: #d8e8c5;
 }
-header img {float: left; margin-right: 10px; width: 50px}
-header h1 {margin: 0; font-size: 1.3rem;}
-header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+header img {float: left; margin-right: 10px; width: 100px}
+header h1 {margin: 0; font-size: 1.7rem;}
+header h2 {margin: 0; font-weight: normal; font-size: 0.5rem;}
 
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color: #b8d8d8;
 }
 nav ul {
     list-style-type: none;
@@ -34,13 +35,12 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #d8e8c5;
+    color: #000;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
 }
-
 
 nav ul li a:hover {
     background-color: #aaa;
@@ -56,36 +56,51 @@ main {
     min-height: 10rem;
 }
 
-main h1 {color: #3db3db;}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main h1 {
+    color: #7a9e9f;
+    font-size: 30px;
+    text-align: center;
+}
 main h2 {
     padding: 0 0 0 0;
     margin: 0 0 .1rem 0;
+    font-size: 25px;
 }
 
-main p {margin: 0 0 1.7rem 0;}
+main h2+p {
+    font-size: 16px;
+}
 
+main p {
+    margin: 0 0 1.7rem 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
 
 main figure.myphoto {
     width: 100%;
     margin: 0 0 0 0;
     float: right;
+
 }
 
 main figure.myphoto img {
     width: 100%;
 }
-main figure.myphoto figcaption {
-    text-align: center;
-    font-size: .7rem;
-}
 
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #d8e8c5;
+    background-color: #4f6367;
+    color: #fff;
     padding: .5rem 2%;
     text-align: center;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 
