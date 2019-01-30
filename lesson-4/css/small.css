@@ -1,32 +1,56 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/*----------- Body --------------*/
 
-/*----------- BODY --------------*/
-body 
-{
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body p {
+	font-family: 'Raleway', sans-serif;
+    padding: 0 1rem 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    	font-family: 'Montserrat', sans-serif;
+        padding: 0 1rem 0 1rem;
 }
 
 
-/*----------- HEADER --------------*/
+/*----------- Header --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #d8e8c5;
+    background-color: #4f6367;
 }
-header img {float: left; margin-right: 10px; width: 100px}
-header h1 {margin: 0; font-size: 1.7rem;}
-.motto {margin: 0; font-weight: normal; font-size: 0.5rem;}
+
+header img {float: left; 
+    margin-right: 0; 
+    width: 30%;
+}
+
+header h1 {
+	margin: 1px; 
+	font-size: 1.5rem; 
+	color: #b8d8d8;
+	text-shadow: 7px 4px 7px black;
+	}
+	
+.motto {
+	margin: 0;
+	font-weight: normal; 
+	font-size: 0.45rem;
+	color: #fff;
+	}
 
 
-/*----------- NAVIGATION --------------*/
+/*----------- Navigation --------------*/
+
 nav {
     background-color: #b8d8d8;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -43,67 +67,95 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #aaa;
-    color: #fff;
+    background-color: #eef5db;
+    color: #000;
 }
+
 nav ul li.active a {
-    background-color: #3db3db;
+    background-color: #4f6367;
     color: #fff;
 }
-/*----------- MAIN --------------*/
+
+/*----------- Main --------------*/
+
 main {
     padding: 0 2%;
     min-height: 10rem;
 }
-
 main h1 {
-    color: #7a9e9f;
     font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+    color: #7a9e9f;
     text-align: center;
+    margin-bottom: 1px;
 }
+
 main h2 {
-    padding: 0 0 0 0;
-    margin: 0 0 .1rem 0;
     font-size: 25px;
+    padding; 0 0 0 0;
+    margin: 0 0 .1rem 0;
 }
 
-main h2+p {
-    font-size: 16px;
+main h3 {
+    font-size: 20px;
+    padding; 0 0 0 0;
+    margin: 0 0 .1rem 0;
 }
 
-main p {
-    margin: 0 0 1.7rem 0;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-}
-
-main figure.myphoto {
+main figure.photo img {
     width: 100%;
     margin: 0 0 0 0;
-    float: right;
+    float:right;
+    border-color: black;
+}
 
+main figure.photo figcaption{
+    width: 100%;
+}
+
+main figure.photo figcaption {
+    text-align: center;
+    font-size: .7rem;
 }
 
 /*----------- Sections --------------*/
 
-.sec1 img {
-    width: 100%;
+.sec1 { border-style: ridge;
+        border-width: thin;
 }
 
-article img {
-    width: 100%;
+.sec1 h4{ border-style: ridge;
+        border-width: thin;
+}
+
+.sec2 {
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 10px;
+}
+
+.sec2 img {
+        border-style: ridge;
+        border-width: thin;
+
+}
+
+.sec3 {
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 10px;
 }
 
 .sec3 img {
-    width: 100%;
+        border-style: ridge;
+        border-width: thin;
+
 }
 
+/*----------- Footer --------------*/
 
-
-
-/*----------- FOOTER --------------*/
 footer {
-    background-color: #4f6367;
+    background-color: #4f6368;
     color: #fff;
     padding: .5rem 2%;
     text-align: center;
@@ -113,7 +165,6 @@ footer {
 
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
