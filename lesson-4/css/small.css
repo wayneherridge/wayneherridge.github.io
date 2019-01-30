@@ -153,6 +153,12 @@ main figure.photo figcaption {
 
 }
 
+.sec3 p {
+            margin-top: 0px;
+
+
+}
+
 .sec4 {
     border-style: ridge;
     border-width: thin;
