@@ -20,7 +20,7 @@ header {
 }
 header img {float: left; margin-right: 10px; width: 100px}
 header h1 {margin: 0; font-size: 1.7rem;}
-header h2 {margin: 0; font-weight: normal; font-size: 0.5rem;}
+.motto {margin: 0; font-weight: normal; font-size: 0.5rem;}
 
 
 /*----------- NAVIGATION --------------*/
@@ -56,10 +56,6 @@ main {
     min-height: 10rem;
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-}
-
 main h1 {
     color: #7a9e9f;
     font-size: 30px;
@@ -88,9 +84,21 @@ main figure.myphoto {
 
 }
 
-main figure.myphoto img {
+/*----------- Sections --------------*/
+
+.sec1 img {
     width: 100%;
 }
+
+article img {
+    width: 100%;
+}
+
+.sec3 img {
+    width: 100%;
+}
+
+
 
 
 /*----------- FOOTER --------------*/
