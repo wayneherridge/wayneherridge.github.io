@@ -152,6 +152,12 @@ main figure.photo figcaption {
 
 }
 
+.sec4 {
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 10px;
+}
+
 /*----------- Footer --------------*/
 
 footer {
