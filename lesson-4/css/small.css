@@ -16,7 +16,6 @@ body p {
 h1, h2, h3, h4, h5, h6 {
     	font-family: 'Montserrat', sans-serif;
         padding: 0 1rem 0 1rem;
-        color: #7a9e9f;
 }
 
 
@@ -125,7 +124,7 @@ main figure.photo figcaption {
         border-width: thin;
 }
 
-.sec1 h4{ border-style: ridge;
+.sec1 h4 { border-style: ridge;
         border-width: thin;
 }
 
