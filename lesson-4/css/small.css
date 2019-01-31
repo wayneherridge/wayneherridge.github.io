@@ -4,13 +4,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- Body --------------*/
 
 body {
-	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 }
 
-body p {
+p {
 	font-family: 'Raleway', sans-serif;
     padding: 0 1rem 0 1rem;
+    font-size: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -141,6 +141,11 @@ main figure.photo figcaption {
 
 }
 
+.sec2 h3 {
+    text-align: center;
+
+}
+
 .sec3 {
     border-style: ridge;
     border-width: thin;
@@ -161,6 +166,10 @@ main figure.photo figcaption {
     border-style: ridge;
     border-width: thin;
     margin-top: 10px;
+}
+
+.sec4 h3 {
+    text-align: center;
 }
 
 /*----------- Footer --------------*/
