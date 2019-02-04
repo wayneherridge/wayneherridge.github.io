@@ -9,7 +9,7 @@ body {
 
 p {
 	font-family: 'Raleway', sans-serif;
-    padding: 0 1rem 0 1rem;
+    padding: 0 10px 0 10px;
     font-size: 12px;
 }
 
@@ -80,96 +80,54 @@ nav ul li.active a {
 /*----------- Main --------------*/
 
 main {
-    padding: 0 2%;
     min-height: 10rem;
 }
+
 main h1 {
     font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
     color: #7a9e9f;
     text-align: center;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
 }
 
 main h2 {
     font-size: 25px;
     padding: 0 0 0 0;
-    margin: 0 0 .1rem 0;
+    margin: 3.5rem 0 .5rem 10px;
 }
 
 main h3 {
     font-size: 20px;
-    padding: 0 0 0 0;
+    padding: 0 0 5px 10px;
     margin: 0 0 .1rem 0;
 }
 
+
 main figure.photo img {
+    width: 100%;
+}
+
+main figure.photo {
     width: 100%;
     margin: 0 0 0 0;
     float:right;
-    border-color: black;
+    padding: 0 0 10px 0;
 }
 
-main figure.photo figcaption{
-    width: 100%;
-}
 
-main figure.photo figcaption {
-    text-align: center;
-    font-size: .7rem;
-}
 
 /*----------- Sections --------------*/
 
-.sec1 { border-style: ridge;
-        border-width: thin;
-}
-
-.sec1 h4 { border-style: ridge;
-        border-width: thin;
-}
-
-.sec2 {
-    border-style: ridge;
-    border-width: thin;
-    margin-top: 10px;
-}
-
-.sec2 img {
-        border-style: ridge;
-        border-width: thin;
-
-}
-
-.sec2 h3 {
-    text-align: center;
-
-}
-
-.sec3 {
-    border-style: ridge;
-    border-width: thin;
-    margin-top: 10px;
-}
-
 .sec3 img {
-        border-style: ridge;
-        border-width: thin;
-
-}
-
-.sec3 p {
-            margin-top: 0px;
+    border-radius: 5%;
+    padding: 0 10px 0 10px;
 }
 
 .sec4 {
-    border-style: ridge;
-    border-width: thin;
-    margin-top: 10px;
-}
-
-.sec4 h3 {
-    text-align: center;
+    background-color: #b8d8d8;
+    border-top-color: black;
+    padding: 1rem 0 1rem 0;
 }
 
 /*----------- Footer --------------*/
@@ -179,7 +137,6 @@ footer {
     color: #fff;
     padding: .5rem 2%;
     text-align: center;
-    margin-top: 10px;
     font-size: 8px;
 }
 
