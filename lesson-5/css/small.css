@@ -1,0 +1,149 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------- Body --------------*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+    padding: 0 10px 0 10px;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    	font-family: 'Montserrat', sans-serif;
+        padding: 0 1rem 0 1rem;
+        color: #7a9e9f;
+}
+
+
+/*----------- Header --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #4f6367;
+}
+
+header img {float: left; 
+    margin-right: 0; 
+    width: 30%;
+}
+
+header h1 {
+	margin: 1px; 
+	font-size: 1.5rem; 
+	color: #b8d8d8;
+	text-shadow: 7px 4px 7px black;
+	}
+	
+.motto {
+	margin: 0;
+	font-weight: normal; 
+	font-size: 0.45rem;
+	color: #fff;
+	}
+
+
+/*----------- Navigation --------------*/
+
+nav {
+    background-color: #b8d8d8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #eef5db;
+    color: #000;
+}
+
+nav ul li.active a {
+    background-color: #4f6367;
+    color: #fff;
+}
+
+/*----------- Main --------------*/
+
+main {
+    min-height: 10rem;
+}
+
+main h1 {
+    font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+    color: #7a9e9f;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+main h2 {
+    font-size: 25px;
+    padding: 0 0 0 0;
+    margin: 3.5rem 0 .5rem 10px;
+}
+
+main h3 {
+    font-size: 20px;
+    padding: 0 0 5px 10px;
+    margin: 0 0 .1rem 0;
+}
+
+
+main figure.photo img {
+    width: 100%;
+}
+
+main figure.photo {
+    width: 100%;
+    margin: 0 0 0 0;
+    float:right;
+    padding: 0 0 10px 0;
+}
+
+
+
+/*----------- Sections --------------*/
+
+.sec3 img {
+    border-radius: 5%;
+    padding: 0 10px 0 10px;
+}
+
+.sec4 {
+    background-color: #b8d8d8;
+    border-top-color: black;
+    padding: 1rem 0 1rem 0;
+}
+
+/*----------- Footer --------------*/
+
+footer {
+    background-color: #4f6368;
+    color: #fff;
+    padding: .5rem 2%;
+    text-align: center;
+    font-size: 8px;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
