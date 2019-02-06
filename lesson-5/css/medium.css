@@ -1,4 +1,7 @@
 @media only screen and (min-width: 35rem){
+    .forecast {
+        display: block;
+    }
     
     /* header */
 
@@ -44,7 +47,5 @@
     .sec3 figure.photo{
         width: 30%
     }
-    .forecast {
-  display: block;
-}
+
 }
