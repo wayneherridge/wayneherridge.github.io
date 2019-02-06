@@ -1,5 +1,9 @@
 @media only screen and (min-width: 560px){
 
+.forecast {
+  display: none;
+}
+	
 nav li {float: left; width: 20%; }
 
 main figure{
