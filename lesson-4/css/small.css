@@ -1,3 +1,5 @@
+
+
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -19,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {
         color: #7a9e9f;
 }
 
+.forecast table {
+    display: none;
+}
 
 /*----------- Header --------------*/
 header {
@@ -44,6 +49,7 @@ header h1 {
 	font-size: 0.45rem;
 	color: #fff;
 	}
+
 
 
 /*----------- Navigation --------------*/
@@ -76,6 +82,7 @@ nav ul li.active a {
     background-color: #4f6367;
     color: #fff;
 }
+
 
 /*----------- Main --------------*/
 
@@ -118,6 +125,8 @@ main figure.photo figcaption {
     text-align: center;
     font-size: .7rem;
 }
+
+
 
 /*----------- Sections --------------*/
 
@@ -182,8 +191,6 @@ footer {
     margin-top: 10px;
     font-size: 8px;
 }
-
-
 
 .clearfix:after {
   content: "";

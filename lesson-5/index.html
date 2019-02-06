@@ -12,6 +12,8 @@
 	
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	
@@ -24,7 +26,7 @@
 		<div class="motto">Check the Weather. Wherever. Whenever.</div>
 	</header>
 	
-	<nav>
+	<nav class="clearfix">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li class="active"><a href="Preston.html">Preston</a></li>
@@ -44,9 +46,47 @@
                 <img src="images/weather1.gif" alt="placeholder">
             </figure>
 		</section>
+        
+    <div class="forecast">
+        <h2>Five Day Forecast</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Description</th>
+                    <th>High/Low</th>
+                    <th>Wind</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Partly Cloudy</td>
+                <td>36&deg; / 59&deg;</td>
+                <td>West 8mph</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Showers</td>
+                <td>30&deg; / 53&deg;</td>
+                <td>SouthWest 4mph</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 			
 		<section class="sec2">
-			<h3>5-Day Forecast Details</h3>
+			<h3>Current Conditions</h3>
             <ul>
                 <li>High: 90&deg;</li>
                 <li>Low: 66&deg;</li>
@@ -57,7 +97,7 @@
 		</section>
         
         <section class="sec3">
-			<article>
+			<article class="clearfix">
 				<h2>This Day in History</h2>
 				
                 <figure class="photo">
