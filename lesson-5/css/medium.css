@@ -1,7 +1,5 @@
 @media only screen and (min-width: 35rem){
-    .forecast {
-        display: block;
-    }
+
     
     /* header */
 
@@ -34,6 +32,10 @@
     th, td {
         padding: 5px;
         text-align: center;
+    }
+    
+    .forecast {
+        display: block;
     }
     
     .sec2 {
