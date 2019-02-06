@@ -45,6 +45,6 @@
         width: 30%
     }
     .forecast {
-  display: none;
+  display: block;
 }
 }
