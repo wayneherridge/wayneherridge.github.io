@@ -44,5 +44,7 @@
     .sec3 figure.photo{
         width: 30%
     }
-    
+    .forecast {
+  display: none;
+}
 }
