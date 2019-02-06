@@ -130,6 +130,10 @@ main figure.photo {
     padding: 1rem 0 1rem 0;
 }
 
+.forecast {
+    content: none;
+}
+
 /*----------- Footer --------------*/
 
 footer {
