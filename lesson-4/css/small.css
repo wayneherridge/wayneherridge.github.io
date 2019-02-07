@@ -12,7 +12,7 @@ body {
 p {
 	font-family: 'Raleway', sans-serif;
     padding: 0 1rem 0 1rem;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -145,8 +145,8 @@ main figure.photo figcaption {
 }
 
 .sec2 img {
-        border-style: ridge;
-        border-width: thin;
+    border-style: ridge;
+    border-width: thin;
 
 }
 
@@ -158,17 +158,17 @@ main figure.photo figcaption {
 .sec3 {
     border-style: ridge;
     border-width: thin;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .sec3 img {
-        border-style: ridge;
-        border-width: thin;
+    border-style: ridge;
+    border-width: thin;
 
 }
 
 .sec3 p {
-            margin-top: 0px;
+    margin-top: 0px;
 }
 
 .sec4 {

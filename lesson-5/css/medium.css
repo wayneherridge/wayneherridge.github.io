@@ -4,16 +4,15 @@
     /* header */
 
     header img {width: 180px;}
-    header h1 {font-size: 1rem;}
+    header h1 {font-size: 3rem;}
     .motto {font-size: 1rem;}
 
     /* navigation */
-
-    
     
     nav ul {margin-left: 2%;}
     nav ul li {float: left;}
-    nav ul li a{padding: .5rem 1rem;}
+    nav ul li a{padding: .5rem 1rem;font-size:18px;}
+    
     
     /* main */
     
@@ -27,11 +26,19 @@
         border: 1px solid black;
         width: 100%;
         padding: 1 1 1 1;
-    }
+        border-collapse: collapse;
+        padding: 5px;    }
     
+    th {
+        height: 50px;
+        background-color: #4f6367;
+        color: white;
+    }
+
     th, td {
         padding: 5px;
         text-align: center;
+        border: 1px solid black;
     }
     
     .forecast {
@@ -47,7 +54,19 @@
     }
     
     .sec3 figure.photo{
-        width: 30%
+        width: 20%
     }
+    .sec4 {
+        clear: both;
+        column-count: 2;
+        column-rule: 1px solid #ddd;
+}
+    
+    .sec4 h3 {
+        padding: 10px;
+        
+    }
+    
+    
 
 }
