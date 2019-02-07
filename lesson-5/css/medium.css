@@ -45,13 +45,19 @@
         display: block;
     }
     
-    
-    div.sec2 {
-        margin: 10px;
+    .herodiv {
+        margin: 10px auto;
         position: relative;
+    }
+    
+    .sec2 {
         position: absolute;
-        top: 210px;
-        left: 30px;
+        top: 25px;
+        left: 50px;
+        background: radial-gradient(#eee, #4567aa;);
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #fff;
     }
     
     .sec3 figure.photo{
