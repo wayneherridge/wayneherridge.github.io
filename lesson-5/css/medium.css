@@ -46,12 +46,11 @@
     .row {
         clear: both;
         column-count: 2;
-        column-rule: 1px solid #ddd;
         text-align: center;
 }
 
-.row h3 {
-        padding: 10px;
+    .row h3 {
+        padding: 3px;
         
     }
 

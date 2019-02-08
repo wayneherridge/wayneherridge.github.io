@@ -11,6 +11,26 @@
         float:right;
     }
 
+    .sec2 {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        border: 1px solid #000;
+        padding: 1rem;
+        box-shadow: 0 0 30px #fff;
+        float: left;
+        background-color: grey;
+    }
+
+    .sec2 h3 {
+        font-size: 20px;
+    }
+
+    .sec2 ul {
+        font-size: 12px;
+    }
+
     .sec3 figure.photo{
         width: 50%;
     }
