@@ -10,7 +10,7 @@ body {
 p {
 	font-family: 'Raleway', sans-serif;
     padding: 0 10px 0 10px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,7 +84,7 @@ main {
 }
 
 main h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
 	font-family: 'Montserrat', sans-serif;
     color: #7a9e9f;
     text-align: center;
@@ -92,13 +92,13 @@ main h1 {
 }
 
 main h2 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     padding: 0 0 0 0;
     margin: 3.5rem 0 .5rem 10px;
 }
 
 main h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 0 0 5px 10px;
     margin: 0 0 .1rem 0;
 }
@@ -168,8 +168,9 @@ footer {
     color: #fff;
     padding: .5rem 2%;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     clear: both;
+    width: 100%;
 }
 
 
