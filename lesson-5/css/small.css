@@ -119,19 +119,38 @@ main figure.photo {
 
 /*----------- Sections --------------*/
 
+.herodiv {
+        margin: 10px auto;
+        position: relative;
+    }
+    
+    .sec2 {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        border: 1px solid #000;
+        box-shadow: 0 0 30px #fff;
+        float: left;
+        font-size: 12px;
+    }
+
+.sec2 h3 {
+	font-size: 15px;
+}
+
 .sec3 img {
     border-radius: 5%;
     padding: 0 10px 0 10px;
 }
 
-.sec4 {
+.row {
     background-color: #b8d8d8;
     border-top-color: black;
-    padding: 1rem 0 1rem 0;
+    padding: 5px 0 5px 0;
+    text-align: center;
 }
 
 .forecast {
-
   display: none;
 }
 
@@ -142,7 +161,7 @@ footer {
     color: #fff;
     padding: .5rem 2%;
     text-align: center;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 
