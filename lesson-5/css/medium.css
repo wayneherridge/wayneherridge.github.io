@@ -30,13 +30,21 @@
     .sec2 {
         display: block;
         position: absolute;
-        top: 15px;
+        top: 20px;
         left: 15px;
         border: 1px solid #000;
         padding: .5rem;
         box-shadow: 0 0 30px #fff;
         float: left;
-        background-color: grey;
+        background: rgba(76, 175, 80, 0.3)        
+    }
+
+    .sec2 h3 {
+        color: black;
+    }
+
+    .sec2 ul {
+        font-size: 14px;
     }
     
     .sec3 figure.photo{
