@@ -10,4 +10,8 @@
         margin: 0 0 0 2%;
         float:right;
     }
+
+    .sec3 figure.photo{
+        width: 50%;
+    }
 }
