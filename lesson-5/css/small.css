@@ -140,6 +140,10 @@ main figure.photo {
     font-size: 15px;
 }
 
+.sec2 ul {
+    padding: 0 0 10px 0;
+}
+
 .sec3 img {
     border-radius: 5%;
     padding: 0 10px 0 10px;
