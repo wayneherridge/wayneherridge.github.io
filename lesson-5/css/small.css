@@ -132,6 +132,8 @@ main figure.photo {
         box-shadow: 0 0 30px #fff;
         float: left;
         font-size: 10px;
+        font-weight: bold;
+        background: rgba(76, 175, 80, 0.3)        
 
     }
 
