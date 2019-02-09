@@ -1,3 +1,5 @@
+
+
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -9,8 +11,8 @@ body {
 
 p {
 	font-family: 'Raleway', sans-serif;
-    padding: 0 10px 0 10px;
-    font-size: 1rem;
+    padding: 0 1rem 0 1rem;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +20,11 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0 1rem 0 1rem;
         color: #7a9e9f;
 }
+
+.forecast table {
+    display: none;
+}
+
 
 
 /*----------- Header --------------*/
@@ -41,9 +48,10 @@ header h1 {
 .motto {
 	margin: 0;
 	font-weight: normal; 
-	font-size: 0.6rem;
+	font-size: 0.45rem;
 	color: #fff;
 	}
+
 
 
 /*----------- Navigation --------------*/
@@ -77,88 +85,105 @@ nav ul li.active a {
     color: #fff;
 }
 
+
 /*----------- Main --------------*/
 
 main {
+    padding: 0 2%;
     min-height: 10rem;
 }
-
 main h1 {
-    font-size: 1.875rem;
+    font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
     color: #7a9e9f;
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
 }
 
 main h2 {
-    font-size: 1.5625rem;
+    font-size: 25px;
     padding: 0 0 0 0;
-    margin: 3.5rem 0 .5rem 10px;
-}
-
-main h3 {
-    font-size: 1.25rem;
-    padding: 0 0 5px 10px;
     margin: 0 0 .1rem 0;
 }
 
+main h3 {
+    font-size: 20px;
+    padding: 0 0 0 0;
+    margin: 0 0 .1rem 0;
+}
 
 main figure.photo img {
     width: 100%;
-}
-
-main figure.photo {
-    width: 100%;
     margin: 0 0 0 0;
     float:right;
-    padding: 10px 0 10px 0;
+    border-color: black;
+}
+
+main figure.photo figcaption{
+    width: 100%;
+}
+
+main figure.photo figcaption {
+    text-align: center;
+    font-size: .7rem;
 }
 
 
 
 /*----------- Sections --------------*/
 
-.herodiv {
-        margin: 10px auto;
-        position: relative;
-    }
-    
-    .sec2 {
-        position: absolute;
-        top: 25px;
-        left: 15px;
-        border: 1px solid #000;
-        box-shadow: 0 0 30px #fff;
-        float: left;
-        font-size: 10px;
-        font-weight: bold;
-        background: rgba(76, 175, 80, 0.3);
-        padding-right: 25px;        
-    }
+.sec1 { border-style: ridge;
+        border-width: thin;
+}
+
+.sec1 h4 { border-style: ridge;
+        border-width: thin;
+}
+
+.sec2 {
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.sec2 img {
+    border-style: ridge;
+    border-width: thin;
+
+}
 
 .sec2 h3 {
-    font-size: 15px;
+    text-align: center;
+
+}
+
+.sec3 {
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 5px;
 }
 
 .sec3 img {
-    border-radius: 5%;
-    padding: 0 10px 0 10px;
+    border-style: ridge;
+    border-width: thin;
+
 }
 
-.row {
-    background-color: #b8d8d8;
-    border-top-color: black;
-    padding: 5px 0 5px 0;
+.sec3 p {
+    margin-top: 0px;
+}
+
+.sec4 {
+    border-style: ridge;
+    border-width: thin;
+    margin-top: 10px;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
 }
 
-.forecast {
-  display: none;
+.sec4 h3 {
+    text-align: center;
 }
-
 
 /*----------- Footer --------------*/
 
@@ -167,12 +192,10 @@ footer {
     color: #fff;
     padding: .5rem 2%;
     text-align: center;
-    font-size: 0.75rem;
-    clear: both;
-    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
 }
-
-
 
 .clearfix:after {
   content: "";
