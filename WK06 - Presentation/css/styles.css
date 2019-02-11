@@ -1,0 +1,53 @@
+img {
+    width: 60%;
+    
+    /* BORDERS */
+    
+    /*border-style: dotted;*/
+    /*border-style: dashed;*/
+    /*border-style: solid;*/
+    /*border-style: double;*/
+    /*border-style: groove;*/
+    /*border-style: ridge;*/
+    /*border-style: inset;*/
+    /*border-style: outset;*/
+    /*border-style: none;*/
+    /*border-style: hidden;*/
+    /*border-style: dotted dashed solid double;*/
+    
+    /*border-width: thin;*/
+    /*border-width: medium;*/
+    /*border-width: thick;*/
+    
+    
+    
+    /* ROUNDED CORNERS */
+    
+    /*border-radius: 5%;*/
+    /*border-radius: 10px 20px 30px 40px;*/
+    /*border-radius: 15px 50px 30px 5px;*/
+    
+    
+    
+    /* SHADING */
+    
+    /*box-shadow: 10px 10px;*/
+    /*box-shadow: 10px 10px grey;*/
+    
+    /*width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;*/
+    
+    
+}
+
+.example {
+    /*text-shadow: 2px 2px;*/
+    /*text-shadow: 2px 2px red;*/
+    /*text-shadow: 2px 2px 5px red;*/
+    /*color: white;*/
+    /*text-shadow: 2px 2px 4px #000000;*/
+    
+    
+    
+}
