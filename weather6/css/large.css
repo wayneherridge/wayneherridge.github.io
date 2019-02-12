@@ -4,7 +4,21 @@
         max-width: 64rem;
         margin: auto;
     }
-    
+
+  
+    nav button {display: none;}
+  
+    nav ul {margin-left: 2%;}
+    nav ul li {float: left;}
+    nav ul li a{
+      border: none;
+      border-right: 1px solid rgba(0,0,0,0.3);
+      padding: .6rem 1rem;
+      font-size:18px;
+  }
+  
+  nav ul.hide {display:block;}
+      
     main figure.photo {
         width: 100%;
         margin: 0 0 0 2%;

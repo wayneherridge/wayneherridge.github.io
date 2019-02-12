@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem){
+@media only screen and (min-width: 35em){
 
     
     /* header */
@@ -8,10 +8,8 @@
     .motto {font-size: 1rem;}
 
     /* navigation */
-    
-    nav ul {margin-left: 2%;}
-    nav ul li {float: left;}
-    nav ul li a{padding: .5rem 1rem;font-size:18px;}
+  
+
     
     
     /* main */
@@ -39,13 +37,13 @@
         background: rgba(76, 175, 80, 0.3)        
     }
 
-    .sec2 h3 {
-        color: black;
-    }
-
     .sec2 ul {
         font-size: 14px;
     }
+  
+  .sec2 h3 {
+    font-size: 20px;
+}
     
     .sec3 figure.photo{
         width: 45%;
