@@ -31,6 +31,10 @@ header figure.logo {
     margin: 0 2% 0 0; 
 }
 
+header figure.logo img {
+    width: 100%;
+}
+
 header h1 {
 	margin: 5% 0 0 0; 
 	font-size: 1.5rem; 
