@@ -34,7 +34,7 @@ header figure.logo {
 }
 
 header figure.logo img {
-    width: 100px;
+    width: 100%;
 }
 
 header h1 {
