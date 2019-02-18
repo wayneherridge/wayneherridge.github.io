@@ -24,6 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: .5rem 2%;
     background-color: #4f6367;
+    display: grid;
+    grid-template-columns: 130px auto;
 }
 
 header figure.logo {
@@ -36,7 +38,7 @@ header figure.logo img {
 }
 
 header h1 {
-	margin: 10% 0 0 0; 
+	margin-top: .5rem; 
 	font-size: 1.5rem; 
 	color: #b8d8d8;
 	text-shadow: 7px 4px 7px black;
