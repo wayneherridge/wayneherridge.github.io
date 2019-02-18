@@ -6,7 +6,8 @@
     header img {width: 180px;}
     header h1 {
         font-size: 3rem;
-        margin:3% 0 0 0;}
+        margin: 3% 0 0 0;
+        padding: 0.5rem 0 0 0 ;}
     .motto {font-size: 1rem;}
 
     /* navigation */
