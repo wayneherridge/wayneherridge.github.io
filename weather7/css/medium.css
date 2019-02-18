@@ -1,0 +1,101 @@
+@media only screen and (min-width: 35em){
+
+    
+    /* header */
+
+    header img {width: 180px;}
+    header h1 {
+        font-size: 3rem;
+        margin: 2% 0 0 0;}
+    .motto {font-size: 1rem;}
+
+    /* navigation */
+    
+    
+    /* main */
+    
+    main figure.photo {
+        width: 100%;
+        margin: 0 0 0 2%;
+        float: right;
+    }
+    
+    .herodiv {
+        margin: 10px auto;
+        position: relative;
+    }
+    
+    .sec2 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        border: 1px solid #000;
+        padding: .5rem;
+        box-shadow: 0 0 30px #fff;
+        float: left;
+        background: rgba(76, 175, 80, 0.3)        
+    }
+
+    .sec2 ul {
+        font-size: 14px;
+    }
+  
+  .sec2 h3 {
+    font-size: 20px;
+}
+    
+    .sec3 figure.photo{
+        width: 45%;
+    }
+
+    .row {
+        clear: both;
+        column-count: 2;
+        text-align: center;
+}
+
+    .row h3 {
+        padding: 3px;
+        
+    }
+
+	.row p{
+		font-size: 14px;
+	}
+        
+    div.row section:nth-child(2){width: 50%; float: left;}
+    div.row section:nth-child(3){width: 50%; float: right;}
+    /* table */
+
+    table {
+        /*border: 1px solid black;*/
+        width: 100%;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    
+    th {
+        height: 50px;
+        background-color: #4f6367;
+        color: white;
+    }
+
+    th, td {
+        padding: 5px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    .forecast {
+        display: block;
+        padding: 10px;
+    }
+    
+    
+        
+    footer {
+        font-size: 16px;
+    }
+
+}
