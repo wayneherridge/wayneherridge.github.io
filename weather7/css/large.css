@@ -31,6 +31,10 @@
         float:right;
     }
 
+     div.weatherGallery figure {
+        flex-basis: 29%;
+    }
+    
     .sec2 {
         display: block;
         position: absolute;

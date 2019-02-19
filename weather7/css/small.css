@@ -106,6 +106,24 @@ main {
     min-height: 10rem;
 }
 
+div.weatherGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.weatherGallery figure {
+    flex-basis: 100%;
+    margin: 1rem 2%;
+}
+
+div.weatherGallery figure img {
+    width: 100%;
+}
+
+div.weatherGallery {
+    width: 100%;
+}
+
 main h1 {
     font-size: 1.875rem;
 	font-family: 'Montserrat', sans-serif;

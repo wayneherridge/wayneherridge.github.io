@@ -21,6 +21,10 @@
         float: right;
     }
     
+    div.weatherGallery figure {
+        flex-basis: 46%;
+    }
+    
     .herodiv {
         margin: 10px auto;
         position: relative;
