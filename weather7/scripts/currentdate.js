@@ -28,8 +28,9 @@ function myFunction() {
   month[11] = "December";
   var mon = month[d.getMonth()];
   
-  var yr = d.getFullYear();  
+  var yr=d.getFullYear();  
   
   
   document.getElementById("currentDate").innerHTML = n + ", " + day + " " + mon + " " + yr;
 }
+myFunction();
