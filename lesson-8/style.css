@@ -6,28 +6,18 @@
     }
     
     /* - Main - */
-    
-    main div h1 {
-      background-color: #7fb9c2;
-      text-align: center;
-      padding: 10px;
-    }
-    
+
     body {
       font-family: 'Ubuntu', sans-serif;
       margin: 10px;
-    }
-    
-    div h1 {
-      float: left;
-      width : 100%;
     }
     
     /* - Table - */
     
     table {
       border-collapse: collapse;
-      width: 60%;
+      box-shadow: 5px 5px 5px;
+
     }
     
     thead {
@@ -39,6 +29,13 @@
       text-align: center;
       border: 1px solid #ddd;
       padding: 10px;
+    }
+
+    thead td {
+        font-size: 28px;
+        color: #000;
+        background-color: #7fb9c2;
+        font-weight: bold;
     }
     
     tbody tr:nth-child(odd) {
