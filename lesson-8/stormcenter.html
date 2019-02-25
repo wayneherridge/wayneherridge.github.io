@@ -3,62 +3,112 @@
 <html lang="en-us">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="Atmospheria.org">
-	<meta name="author" content="Wayne Herridge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<title>Storm Center : Atmospheria</title>	
-	
-	<link href="css/normalize.css" rel="stylesheet">
-	<link href="css/small.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="description" content="Atmospheria.org">
+    <meta name="author" content="Wayne Herridge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Storm Center : Atmospheria</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <link href="css/form.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	
+
 </head>
 
 <body>
-	<header class="clearfix">
+    <header class="clearfix">
         <figure class="logo">
-            <img src="images/logo1.png" alt="logo" 
-            srcset="images/logo1.png 1x, images/logo1.png 2x, images/logo1.png 3x">
+            <img src="images/logo1.png" alt="logo" srcset="images/logo1.png 1x, images/logo1.png 2x, images/logo1.png 3x">
         </figure>
         <div>
-		    <h1>Atmospheria</h1>
+            <h1>Atmospheria</h1>
             <div class="motto">Check the Weather. Wherever. Whenever.</div>
         </div>
-	</header>
-	
-	<nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-			<li><a href="https://wayneherridge.github.io/">Home</a></li>
-			<li><a href="https://wayneherridge.github.io/weather7/index.html">Preston</a></li>
-			<li><a href="#">Soda Springs</a></li>
+            <li><a href="https://wayneherridge.github.io/">Home</a></li>
+            <li><a href="https://wayneherridge.github.io/lesson8/index.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li class="active"><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
 
-		</ul>
-	</nav>
-    
-    
-	<main class="clearfix">
-       
+        </ul>
+    </nav>
 
-        
-	</main>
+    <main class="clearfix">
+        <form action="#" method="#">
+            <h2>Personal Information</h2>
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fullname" required>
 
-	<footer>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="address@provider.com">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="telno" name="telno">
+
+            <label for="zipcode">Zip Code</label>
+            <input type="number" id="zipcode" name="zipcode">
+
+            <h2>Storm Details</h2>
+
+            <label for="stormdate">Storm Date</label>
+            <input type="date" id="stormdate" name="stormdate">
+
+            <label for="stormtype">Storm Type</label>
+            <input list="stormtype" name="stormtype">
+            <datalist id="stormtype">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+
+            <label for="severity">Storm Severity (1-10)</label>
+            <span id="ratingvalue">5</span>
+            <input type="range" id="severity" value="5" name="sevrange" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+
+            <label for="region">Select Region</label>
+            <select name="region">
+                <option value="" selected disabled>Select Region ...</option>
+                <option value="preston">Preston</option>
+                <option value="sodasprings">Soda Springs</option>
+                <option value="fishhaven">Fish Haven</option>
+            </select>
+
+
+            <label for="indanger">Danger Level</label>
+            <input type="radio" name="indanger" value="yes">Yes
+            <input type="radio" name="indanger" value="maybe">Maybe
+            <input type="radio" name="indanger" value="no">No
+
+            <label for="info">Additional Information or Comments</label>
+            <textarea rows="4" cols="50"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
         &copy; Wayne Herridge &bull; <span id="currentDate"></span>
     </footer>
-	
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
     <script src="scripts/currentdate.js"></script>
-    <script>myFunction()</script>
+    <!-- <script src="scripts/rating.js"></script> -->
+
 </body>
 
 
