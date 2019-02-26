@@ -68,7 +68,8 @@ select {
   border-radius: 2px;
 }
 
-form button {
+form input[type="button"]
+  {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;

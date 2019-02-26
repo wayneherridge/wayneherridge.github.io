@@ -47,10 +47,11 @@
     </nav>
 
     <main class="clearfix">
+    <h1>Storm Center</h1>
         <form action="#" method="#">
             <h2>Personal Information</h2>
             <label for="fname">Full Name</label>
-            <input type="text" id="fname" name="fullname" required>
+            <input type="text" id="fname" name="fullname" pattern=".{5,}" required>
 
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="address@provider.com">
@@ -95,9 +96,10 @@
             <input type="radio" name="indanger" value="no">No
 
             <label for="info">Additional Information or Comments</label>
-            <textarea rows="4" cols="50"></textarea>
+            <textarea rows="4" cols="50" name="info"></textarea>
 
-            <button type="submit">Submit</button>
+            <a href="thanks.html">
+                <input type="button" name="button" value="Submit"></a>
         </form>
     </main>
 
@@ -107,7 +109,7 @@
 
     <script src="scripts/windchill.js"></script>
     <script src="scripts/currentdate.js"></script>
-    <!-- <script src="scripts/rating.js"></script> -->
+    <script src="scripts/rating.js"></script>
 
 </body>
 
