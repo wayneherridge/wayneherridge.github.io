@@ -248,7 +248,7 @@ form fieldset {
     color: #555;
   }
   
-  form input.submit {
+  form input.submitBtn {
     border: none;
     background-color: red;
     color: white;
