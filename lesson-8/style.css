@@ -44,6 +44,10 @@
     tbody tr:nth-child(even) {
       background-color: #e7ffed;
     }
+
+    table tbody tr:nth-child(6) td:nth-child(1){
+      font-style: italic;
+    }
     
     .bold {
       background-color: #628ca6;
