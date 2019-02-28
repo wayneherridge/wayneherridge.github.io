@@ -7,7 +7,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-p {
+p, label, option, input{
 	font-family: 'Raleway', sans-serif;
     padding: 0 10px 0 10px;
     font-size: 1rem;
@@ -211,13 +211,13 @@ main figure.photo img {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid blue;
+    border: 1px solid #4f6367;
     border-radius: 10px;
     padding: .5rem 2%;
   }
   
   form legend {
-    color: #445ba9;
+    color: #4f6367;
     margin: 0 1rem;
     padding: 0 .5rem;
   }
@@ -225,7 +225,7 @@ form fieldset {
   form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: red;
+    color: #fe5f55;
     font-size: .8rem;
   }
   
@@ -234,8 +234,8 @@ form fieldset {
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
-    padding: .75rem;
-    color: #555;
+    padding: .75rem 1.5rem;
+    color: #4f6367;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
@@ -244,13 +244,13 @@ form fieldset {
   
   form label.sbs {
     display: block;
-    padding: .75rem 0;
-    color: #555;
+    padding: .75rem 1.5rem;
+    color: #4f6367;
   }
   
   form input.submitBtn {
     border: none;
-    background-color: red;
+    background-color: #fe5f55;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -258,13 +258,18 @@ form fieldset {
     width: 96%;
     max-width: 20rem;
   }
+
+  form input.submitBtn:hover {
+    background-color: #4f6367;
+    color: #fff;
+  }
   
   form label.top input:required {
-    border-left: red solid 6px;
+    border-left: #fe5f55 solid 6px;
   }
   
   form label.top input:required:valid{
-    border-left: green solid 6px;
+    border-left: #4f6367 solid 6px;
   }
 
   input[type=range] {
@@ -292,12 +297,12 @@ form fieldset {
   input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: 1px solid #000000;
-    height: 36px;
+    height: 30px;
     width: 16px;
     border-radius: 3px;
     background: #ffffff;
     cursor: pointer;
-    margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    margin-top: -11px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
     box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
   }
 
@@ -326,7 +331,7 @@ form fieldset {
         height: 8.4px;
         cursor: pointer;
         box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-        background: #3071a9;
+        background: #7a9e9f;
         border-radius: 1.3px;
         border: 0.2px solid #010101;
       }
@@ -358,7 +363,15 @@ form fieldset {
       input[type=range]:focus::-ms-fill-upper {
         background: #367ebd;
       }
-      
+
+      textarea {
+        padding: 10px;
+        line-height: 1.5;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #999;
+      }
+
 
 /*----------- Footer --------------*/
 
