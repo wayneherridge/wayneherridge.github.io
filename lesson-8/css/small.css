@@ -226,6 +226,17 @@ main figure.photo img {
     display: none;
 }
 
+.thankyou h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.thankyou h2 {
+    padding: 0 20px 50px 20px;
+    width: 100%;
+    text-align: center;
+}
+
 /* -------------- Form -------------- */
 
 form fieldset {
