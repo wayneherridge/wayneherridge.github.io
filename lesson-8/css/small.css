@@ -7,7 +7,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-p, label, option, input{
+p, label.top, option, input, form div{
 	font-family: 'Raleway', sans-serif;
     padding: 0 10px 0 10px;
     font-size: 1rem;
@@ -228,6 +228,10 @@ form fieldset {
     color: #fe5f55;
     font-size: .8rem;
   }
+
+form div {
+    padding-left: .75rem;
+}
   
   form label.top input, form label.top select  {
     -webkit-appearance: none;
@@ -271,10 +275,6 @@ form fieldset {
   form label.top input:required:valid{
     border-left: #4f6367 solid 6px;
   }
-
-form div {
-    margin: 0 0 0 2%;
-}
 
   input[type=range] {
     -webkit-appearance: none;
