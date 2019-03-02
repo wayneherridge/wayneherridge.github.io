@@ -4,10 +4,6 @@ html {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
   }
   
-  main {
-      max-width: 64rem;
-  }
-  
   body {
     width: 75%;
     margin: 0 auto;
