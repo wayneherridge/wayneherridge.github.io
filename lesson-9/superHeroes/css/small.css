@@ -1,3 +1,4 @@
+
 /* || general styles */
 
 html {
@@ -16,7 +17,7 @@ h1, h2 {
 /* header styles */
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -28,9 +29,25 @@ header p {
 
 /* section styles */
 
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 section article {
-  width: 33%;
-  float: left;
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+section article:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section article:hover h2 {
+  color: red;
 }
 
 section p {
@@ -45,4 +62,6 @@ h2 {
   font-size: 2.5rem;
   letter-spacing: -5px;
   margin-bottom: 10px;
+  text-align: center;
+
 }
