@@ -32,6 +32,18 @@ function showHeroes(jsonObj) {
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myList = document.createElement('ul');
+      var myImg = document.createElement('img');
+      
+      if (heroes[i].name == "Molecule Man") {
+                myImg.setAttribute('src', 'https://vignette.wikia.nocookie.net/ultimate-marvel-cinematic-universe/images/b/b8/JohnDouglas_MU_Molecule-Man_05.jpg/revision/latest/scale-to-width-down/366?cb=20151111002345');
+                myImg.setAttribute('alt', 'Molecule Man');
+            } else if (heroes[i].name == "Madame Uppercut") {
+                myImg.setAttribute('src', 'https://image.shutterstock.com/image-vector/pop-art-comic-book-panel-450w-1040428651.jpg');
+                myImg.setAttribute('alt', 'Madame Uppercut');
+            } else if (heroes[i].name == "Eternal Flame") {
+                myImg.setAttribute('src', 'https://static.comicvine.com/uploads/square_small/1/15776/891358-eternalflame.jpg');
+                myImg.setAttribute('alt', 'Eternal Flame');
+            }
 
     myH2.textContent = heroes[i].name;
     myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
@@ -50,6 +62,7 @@ function showHeroes(jsonObj) {
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myList);
+    myArticle.appendChild(myImg);
 
     section.appendChild(myArticle);
   }
