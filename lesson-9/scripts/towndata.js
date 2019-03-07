@@ -43,7 +43,7 @@ function showTowns(jsonObj) {
 
             myH2.textContent = townObj[i].name;
             myPara1.textContent = townObj[i].motto;
-            myPara2.textContent = "<bold>Year Founded: </bold>" + townObj[i].yearFounded;
+            myPara2.textContent = "Year Founded: " + townObj[i].yearFounded;
             myPara3.textContent = "Population: " + townObj[i].currentPopulation;
             myPara4.textContent = "Annual Rainfall: " + townObj[i].averageRainfall;
 

@@ -430,27 +430,6 @@ textarea {
     text-align: center;
 }
 
-/*----------- Footer --------------*/
-
-footer {
-    background-color: #4f6368;
-    color: #fff;
-    padding: .5rem 2%;
-    text-align: center;
-    font-size: 0.65rem;
-    clear: both;
-    width: 100%;
-}
-
-
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
 /* section three cities css */
 
 #threecities {
@@ -471,14 +450,17 @@ footer {
 
 }
 
-#threecities p {
+#threecities p:nth-child(2) {
+    color: red;
     font-size: 20px;
+  }
+
+#threecities p {
+    font-size: 15px;
     margin: 5px 0;
     padding: 2%;
     text-align: center;
 }
-
-
 
 #threecities ul {
     margin-top: 0;
@@ -489,4 +471,24 @@ footer {
     letter-spacing: 2px;
     margin: 10px;
     text-align: center;
+}
+
+/*----------- Footer --------------*/
+
+footer {
+    background-color: #4f6368;
+    color: #fff;
+    padding: .5rem 2%;
+    text-align: center;
+    font-size: 0.65rem;
+    clear: both;
+    width: 100%;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
