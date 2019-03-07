@@ -446,16 +446,15 @@ textarea {
  
 #threecities article {
     width: 100%;
-    background-color: lightgrey;
+    background-color: #b8d8d8;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5%;
-
  
 }
  
 #threecities p:nth-child(2) {
-    color: red;
+    color: #fe5f55;
     font-size: 20px;
   }
  
@@ -474,6 +473,7 @@ textarea {
     letter-spacing: 2px;
     margin: 10px;
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 
 /*----------- Footer --------------*/
