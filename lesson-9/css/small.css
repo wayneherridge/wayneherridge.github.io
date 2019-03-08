@@ -61,7 +61,7 @@ header h1 {
 .motto {
     padding: 0;
     font-weight: normal;
-    font-size: 0.7rem;
+    font-size: .8rem;
     color: #fff;
 }
 
@@ -227,6 +227,11 @@ main figure.photo img {
 }
 
 /* -------------- Form -------------- */
+
+form{
+    max-width:360px;
+    margin:auto;
+}
 
 form fieldset {
     margin: 2rem 0;

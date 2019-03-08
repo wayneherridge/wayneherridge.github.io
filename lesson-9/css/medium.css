@@ -133,8 +133,11 @@
     #threecities {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
     }
+
     #threecities article {
-        width: 95%;
+        width: 100%;
     }
 }
+
