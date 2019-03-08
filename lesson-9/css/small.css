@@ -299,10 +299,10 @@ form input.submitBtn {
     background-color: #fe5f55;
     color: white;
     border-radius: 1rem;
-    padding: .75rem 0rem;
-    margin: 0 0 1rem;
-    width: 100%;
-    max-width: 96em;
+    padding: .75rem;
+    margin: 0 .65rem 1rem;
+    width: 95%;
+    max-width: 100%;
 }
 
 form input.submitBtn:hover {
