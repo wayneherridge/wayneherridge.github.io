@@ -1,0 +1,72 @@
+
+/* || general styles */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+}
+
+/* header styles */
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* section styles */
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section article {
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+article img {
+    width: 70%;
+    padding: 0 0 0 40px;
+}
+
+section article:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section article:hover h2 {
+  color: red;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}

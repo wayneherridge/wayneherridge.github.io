@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* - Main - */
+
+    body {
+      font-family: 'Ubuntu', sans-serif;
+      margin: 10px;
+    }
+    
+    /* - Table - */
+    
+    table {
+      border-collapse: collapse;
+      box-shadow: 10px 10px 15px #628ca6;
+
+    }
+    
+    thead {
+      background-color: #628ca6;
+      color: #fff;
+    }
+    
+    thead th, td {
+      text-align: center;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    thead td {
+        font-size: 28px;
+        color: #000;
+        background-color: #7fb9c2;
+        font-weight: bold;
+    }
+    
+    tbody tr:nth-child(odd) {
+      background-color: #e7f0ed;
+    }
+    
+    tbody tr:nth-child(even) {
+      background-color: #e7ffed;
+    }
+
+    table tbody tr:nth-child(5) td:nth-child(1){
+      font-style: italic;
+    }
+    
+    .bold {
+      background-color: #628ca6;
+      color: #fff;
+    }
+    
+    /* - Table Footer - */
+    
+    tfoot {
+      font-size: 12px;
+      background-color: #7fb9c2;
+    }
+    
+    /* json towns css */
+
+/* || general styles */
+
+html {
+  font-family: 'Acme', sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+}
+
+p1 {
+  font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* header styles */
+
+
+
+/* section styles */
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+article img{
+  width:100%;
+}
+
+section article {
+  width: 33%;
+  float: left;
+    background-color: lightgrey;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+section p {
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 2%;
+  text-align: center;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
