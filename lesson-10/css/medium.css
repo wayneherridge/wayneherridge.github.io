@@ -36,6 +36,10 @@
         margin: 10px auto;
         position: relative;
     }
+    
+    .sec1 p {
+        font-size: 12px;
+    }
 
     .sec2 {
         display: block;
@@ -57,6 +61,11 @@
         font-size: 20px;
     }
 
+    .sec2 img {
+    padding: 0;
+    width: 40px;
+    border-style: none;
+}
     .sec3 figure.photo {
         width: 45%;
     }

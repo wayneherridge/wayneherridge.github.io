@@ -40,7 +40,6 @@
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-
         </ul>
     </nav>
 
@@ -54,18 +53,17 @@
                     <img src="images/0.jpg" alt="Weather Picture" sizes="100vw" srcset="images/200.jpg 400w,
                     images/1100.jpg 1100w">
                 </figure>
+                <p>Weather Data Provided by : <a href="https://openweathermap.org/api">openweathermap.org/api</a></p>
             </section>
 
             <section class="sec2">
-		    <h3>Current Conditions</h3>
+		    <h3>Current Conditions <img alt="current weather" id="weather_icon"></h3>
                 <ul>
                     <li>High: <span id="highTemp"></span>&deg;</li>
                     <li>Low: <span id="lowTemp"></span>&deg;</li>
                     <li>Chance of Precipitation: 0%</li>
                     <li>Wind: <span id="windSpeed"></span>mph</li>
                     <li>Wind Chill: <span id="outputDiv"></span></li>
-                    <img alt="current weather" id="weather_icon">
-
                 </ul>
             </section>
 

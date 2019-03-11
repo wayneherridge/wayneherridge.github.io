@@ -60,6 +60,8 @@
     .weatherGallery img:hover {
         box-shadow: 0 0 15px #333;
     }
+    
+    
 
     .sec2 {
         display: block;
@@ -79,6 +81,12 @@
     .sec2 ul {
         font-size: 15px;
     }
+    
+    .sec2 img {
+    padding: 0;
+    width: 40px;
+    border-style: none;
+}
 
     .sec3 figure.photo {
         width: 50%;
