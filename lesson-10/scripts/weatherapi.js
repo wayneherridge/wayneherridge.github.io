@@ -8,13 +8,15 @@ weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
     
-    document.getElementById('city').innerHTML = weatherData.name;
+    if(document.getElementById("city") != null) {
+      document.getElementById('city').innerHTML = weatherData.name;
+    }
+  
+    if(document.getElementById("current-temp") != null) {
     document.getElementById('current-temp').innerHTML = weatherData.main.temp;
+    }
     document.getElementById('highTemp').innerHTML = weatherData.main.temp_max;
     document.getElementById('lowTemp').innerHTML = weatherData.main.temp_min;
     document.getElementById('windSpeed').innerHTML = weatherData.wind.speed;
 
-    var iconcode = weatherData.weather[0];
-    var icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
-    document.getElementById('weather_icon').src = icon_path;
 }
