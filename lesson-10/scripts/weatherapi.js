@@ -4,7 +4,7 @@ weatherRequest.open('GET','http://api.openweathermap.org/data/2.5/weather?id=506
 
 weatherRequest.send();
 
-weatherRequest.onload=function() {
+weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
     
@@ -14,5 +14,7 @@ weatherRequest.onload=function() {
     document.getElementById('lowTemp').innerHTML = weatherData.main.temp_min;
     document.getElementById('windSpeed').innerHTML = weatherData.wind.speed;
 
-    
+    var iconcode = weatherData.weather[0];
+    var icon_path = "http://openweathermap.org/img/w/" + iconcode + ".png";
+    document.getElementById('weather_icon').src = icon_path;
 }
