@@ -12,11 +12,27 @@ weatherRequest.onload = function() {
       document.getElementById('city').innerHTML = weatherData.name;
     }
   
-    if(document.getElementById("current-temp") != null) {
-    document.getElementById('current-temp').innerHTML = weatherData.main.temp;
+    if(document.getElementById('current-temp') != null) {
+      document.getElementById('current-temp').innerHTML = weatherData.main.temp;
     }
-    document.getElementById('highTemp').innerHTML = weatherData.main.temp_max;
-    document.getElementById('lowTemp').innerHTML = weatherData.main.temp_min;
-    document.getElementById('windSpeed').innerHTML = weatherData.wind.speed;
+    
+    var lowTemp = parseFloat(document.getElementById('highTemp').innerHTML = weatherData.main.temp_max);
+    var highTemp = parseFloat(document.getElementById('lowTemp').innerHTML = weatherData.main.temp_min);
+    var windSpeed = parseFloat(document.getElementById('windSpeed').innerHTML = weatherData.wind.speed);
+  
+  var temp = (lowTemp + highTemp) / 2;
 
+  var wc = windChill(temp, windSpeed);
+
+  document.getElementById("outputDiv").innerHTML = wc.toFixed(2);
+}
+
+// ------ Processing ------ 
+function windChill(temp, speed) {
+    // works out the wind chill by using the formula below
+
+    var spd = Math.pow(speed, 0.16);
+    var wc = (35.74 + (0.6215 * temp) - (35.75 * spd) + (0.4275 * temp * spd));
+
+  return wc;
 }
