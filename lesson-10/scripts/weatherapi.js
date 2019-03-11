@@ -15,6 +15,6 @@ weatherRequest.onload = function() {
     document.getElementById('windSpeed').innerHTML = weatherData.wind.speed;
 
     var iconcode = weatherData.weather[0];
-    var icon_path = "http://openweathermap.org/img/w/" + iconcode + ".png";
+    var icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
     document.getElementById('weather_icon').src = icon_path;
 }
