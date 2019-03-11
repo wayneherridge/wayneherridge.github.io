@@ -19,6 +19,10 @@ weatherRequest.onload = function() {
     var lowTemp = parseFloat(document.getElementById('highTemp').innerHTML = weatherData.main.temp_max);
     var highTemp = parseFloat(document.getElementById('lowTemp').innerHTML = weatherData.main.temp_min);
     var windSpeed = parseFloat(document.getElementById('windSpeed').innerHTML = weatherData.wind.speed);
+    
+    var iconcode = weatherData.weather[0].icon;
+    var icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
+    document.getElementById('weather_icon').src = icon_path;
   
   var temp = (lowTemp + highTemp) / 2;
 
