@@ -213,6 +213,8 @@ main figure.photo img {
 .sec2 ul li {
     padding: 0 10px 5px 0;
     color: #fff;
+        list-style-type: none;
+
 }
 
 .sec2 img {
