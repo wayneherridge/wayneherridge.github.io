@@ -71,25 +71,9 @@ forecastRequest.onload = function () {
             console.log(myTr);
             tbody.appendChild(myTr);
             console.log(tbody);
-
+            
         } else {
             console.log(time);
         }
-
     }
-    /*
-      document.getElementById('city').innerHTML = weatherData.name;
-  
-    if(document.getElementById('current-temp') != null) {
-      document.getElementById('current-temp').innerHTML = weatherData.main.temp;
-    }
-    
-    var lowTemp = parseFloat(document.getElementById('highTemp').innerHTML = weatherData.main.temp_max);
-    var highTemp = parseFloat(document.getElementById('lowTemp').innerHTML = weatherData.main.temp_min);
-    var windSpeed = parseFloat(document.getElementById('windSpeed').innerHTML = weatherData.wind.speed);
-    
-    var iconcode = weatherData.weather[0].icon;
-    var icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
-    document.getElementById('weather_icon').src = icon_path;
-*/
 }

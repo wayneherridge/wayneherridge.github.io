@@ -31,13 +31,13 @@ function showTowns(jsonObj) {
             var myImg = document.createElement('img');
 
             if (townObj[i].name == "Preston") {
-                myImg.setAttribute('src', 'https://cdn.glitch.com/0e6459e2-7f45-4e2b-8100-f606b11bdadc%2Fdownload.jpeg?1551738255453');
+                myImg.setAttribute('src', 'https://farm4.staticflickr.com/3131/3162129694_d442185c91_b.jpg');
                 myImg.setAttribute('alt', 'Preston Image');
             } else if (townObj[i].name == "Soda Springs") {
-                myImg.setAttribute('src', 'https://cdn.glitch.com/0e6459e2-7f45-4e2b-8100-f606b11bdadc%2Fdownload.jpeg?1551738255453');
+                myImg.setAttribute('src', 'https://idahohighcountry.org/wp-content/uploads/Eight-Mile-Trail-Head-soda-springs-idaho.jpg');
                 myImg.setAttribute('alt', 'Soda Springs');
             } else if (townObj[i].name == "Fish Haven") {
-                myImg.setAttribute('src', 'https://cdn.glitch.com/0e6459e2-7f45-4e2b-8100-f606b11bdadc%2Fdownload.jpeg?1551738255453');
+                myImg.setAttribute('src', 'https://bearlake.org/wp-content/uploads/cache/images/fish-haven-oregon-trail-bear-lake-scenic-byway/fish-haven-oregon-trail-bear-lake-scenic-byway-690061338.jpg');
                 myImg.setAttribute('alt', 'Fish Haven');
             }
 
