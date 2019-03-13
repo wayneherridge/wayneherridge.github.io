@@ -56,15 +56,10 @@ forecastRequest.onload = function () {
             let wind = list[i].wind.speed;
             console.log(wind);
 
-            var icon = list[i].weather[0].icon;
-            var icon_path = "http://openweathermap.org/img/w/" + icon + ".png";
-            
-            console.log(icon_path);
-
             myTd1.textContent = dayName;
             myTd2.textContent = desc;
             myTd3.textContent = high + "\xB0F / " + min + "\xB0F";
-            myTd4.textContent = wind + " mph";
+            myTd4.textContent = wind + "mph";
 
             myTr.appendChild(myTd1);
             myTr.appendChild(myTd2);
