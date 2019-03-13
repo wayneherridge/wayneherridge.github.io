@@ -1,6 +1,4 @@
 function daysOfWeek(num) {
-    var d = new Date();
-
     var weekday = new Array(7);
     weekday[0] = "Sunday";
     weekday[1] = "Monday";
@@ -10,12 +8,12 @@ function daysOfWeek(num) {
     weekday[5] = "Friday";
     weekday[6] = "Saturday";
 
-    var dayName = weekday[d.getDay() + num];
+    var dayName = weekday[num];
     return dayName;
 }
 let forecastRequest = new XMLHttpRequest();
 
-forecastRequest.open('GET', '//api.openweathermap.org/data/2.5/forecast?id=5061036&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+forecastRequest.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=5061036&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
 
 forecastRequest.send();
 
@@ -24,9 +22,9 @@ forecastRequest.onload = function () {
 
     let list = weatherData.list;
     console.log(list);
-
-    var count = -1;
-
+    var d = new Date();
+    var count = d.getDay();
+    console.log(count);
     var tbody = document.querySelector('tbody');
     for (var i = 0; i <= list.length; i++) {
         //console.log("inside");
@@ -40,10 +38,14 @@ forecastRequest.onload = function () {
             var myTd4 = document.createElement("td");
 
             //console.log(time);
-            count += 1;
+            if (count == 7) {
+                count = 0;
+            }
+
+            console.log("day number", count);
             let dayName = daysOfWeek(count);
             console.log(dayName);
-
+            count++;
             let desc = list[i].weather[0].description;
             console.log(desc);
 
@@ -59,15 +61,21 @@ forecastRequest.onload = function () {
             myTd1.textContent = dayName;
             myTd2.textContent = desc;
             myTd3.textContent = high + "\xB0F / " + min + "\xB0F";
-            myTd4.textContent = wind + "mph";
+            myTd4.textContent = wind + " mph";
 
             myTr.appendChild(myTd1);
             myTr.appendChild(myTd2);
             myTr.appendChild(myTd3);
             myTr.appendChild(myTd4);
 
+            console.log(myTr);
+            tbody.appendChild(myTr);
+            console.log(tbody);
+
+        } else {
+            console.log(time);
         }
-        tbody.appendChild(myTr);
+
     }
     /*
       document.getElementById('city').innerHTML = weatherData.name;
