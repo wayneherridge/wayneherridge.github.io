@@ -36,6 +36,8 @@ forecastRequest.onload = function () {
             var myTd2 = document.createElement("td");
             var myTd3 = document.createElement("td");
             var myTd4 = document.createElement("td");
+            var myImg = document.createElement("img");
+                
 
             //console.log(time);
             if (count == 7) {
@@ -57,7 +59,7 @@ forecastRequest.onload = function () {
 
             let wind = list[i].wind.speed;
             console.log(wind);
-
+            
             myTd1.textContent = dayName;
             myTd2.textContent = desc;
             myTd3.textContent = high + "\xB0F / " + min + "\xB0F";
@@ -67,6 +69,7 @@ forecastRequest.onload = function () {
             myTr.appendChild(myTd2);
             myTr.appendChild(myTd3);
             myTr.appendChild(myTd4);
+            myTr.appendChild(myImg);
 
             console.log(myTr);
             tbody.appendChild(myTr);
