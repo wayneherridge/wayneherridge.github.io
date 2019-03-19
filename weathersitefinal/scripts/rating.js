@@ -1,3 +1,1 @@
-function adjustRating(severity) {
-    document.getElementById("ratingvalue").innerHTML = severity;
-}
+function adjustRating(a){document.getElementById("ratingvalue").innerHTML=a};
