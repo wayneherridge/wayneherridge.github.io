@@ -31,7 +31,7 @@ function showTowns(jsonObj) {
             var myImg = document.createElement('img');
 
             if (townObj[i].name == "Preston") {
-                myImg.setAttribute('src', 'https://farm4.staticflickr.com/3131/3162129694_d442185c91_b.jpg');
+                myImg.setAttribute('src', 'images/fishhaven.jpg');
                 myImg.setAttribute('alt', 'Preston Image');
             } else if (townObj[i].name == "Soda Springs") {
                 myImg.setAttribute('src', 'https://idahohighcountry.org/wp-content/uploads/Eight-Mile-Trail-Head-soda-springs-idaho.jpg');
