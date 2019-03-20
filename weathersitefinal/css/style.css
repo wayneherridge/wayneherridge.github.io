@@ -91,7 +91,6 @@ nav {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8d8d8', endColorstr='#4f6367', GradientType=0);
     /* IE6-9 */
     ;
-    position: a
 }
 
 nav ul {
@@ -507,6 +506,35 @@ textarea {
     text-shadow: 2px 2px black;
 }
 
+
+/*-----------Soda Springs----------*/
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.information p {
+    text-align: left;
+}
+
+/*-----------Fish Haven ----------*/
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.links p {
+    text-align: left;
+}
+
 /*----------- Footer --------------*/
 
 footer {
@@ -682,17 +710,74 @@ footer {
     #threecities article {
         width: 100%;
     }
+    
+   .information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.local p {
+    text-align: center;
+}
+    
+    .links {
+    display: grid;
+    grid-gap: 5px;
+    padding: 15px;
+    text-align: center;
+}
+ 
+    .links ul {
+    padding: 0;
+        margin: 0;
+}
+    .a {
+        grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 2;
+
+    }
+    
+    .b {
+        grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 3;
+    }
+    
+    .c {
+         grid-column-start: 4;
+   grid-column-end: 5;
+   grid-row-start: 1;
+   grid-row-end: 4;
+    }
+    
+.links h2 {
+    text-align: left;
+}
+
+    .links p {
+        padding:0;
+        margin: 0;
+    }
+
+
+
 }
 
 /* Large View */
 
-@media only screen and (min-width:64rem) {
+@media only screen and (min-width:75rem) {
 
     header,
     nav,
     main,
     footer {
-        max-width: 64rem;
+        max-width: 75rem;
         margin: auto;
     }
 
@@ -749,8 +834,6 @@ footer {
         box-shadow: 0 0 15px #333;
     }
     
-    
-
     .sec2 {
         display: block;
         position: absolute;
@@ -788,4 +871,27 @@ footer {
             padding: 10px 10px 15px;
 
     }
+    
+    .information {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+    padding: 15px;
+    text-align: center;
+    }
+    
+    .links h2{
+        text-align: left;
+    }
+    .b {
+        grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 3;
+    }
+    
+
+.local p {
+    text-align: left;
+}
 }
