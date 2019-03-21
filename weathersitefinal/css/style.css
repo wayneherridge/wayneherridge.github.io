@@ -11,8 +11,6 @@ html {
     box-sizing: border-box;
 }
 
-/*----------- Body --------------*/
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -34,8 +32,6 @@ h6 {
     color: #7a9e9f;
 }
 
-
-/*----------- Header --------------*/
 header {
     padding: .2rem 1.5%;
     background-color: #4f6367;
@@ -66,9 +62,6 @@ header h1 {
     font-size: .8rem;
     color: #fff;
 }
-
-
-/*----------- Navigation --------------*/
 
 nav button {
     margin: .2rem 2%;
@@ -122,8 +115,6 @@ nav ul li a:hover {
 nav ul.hide {
     display: none;
 }
-
-/*----------- Main --------------*/
 
 main {
     min-height: 10rem;
@@ -182,8 +173,6 @@ main figure.photo img {
     width: 100%;
 }
 
-/*----------- Sections --------------*/
-
 .herodiv {
     margin: 10px auto;
     position: relative;
@@ -237,6 +226,15 @@ main figure.photo img {
     padding: 0 10px 0 10px;
 }
 
+.sec3 h2 {
+    padding: 0 1rem 0 1rem;}
+
+.sec3 p {
+    padding: 0 0 0 20px;
+    margin: 0;
+    
+}
+
 .row {
     background-color: #b8d8d8;
     border-top-color: black;
@@ -249,8 +247,6 @@ main figure.photo img {
 .forecast {
     display: none;
 }
-
-/* -------------- Form -------------- */
 
 form {
     max-width: 350px;
@@ -289,12 +285,10 @@ textarea {
     font-size: 1rem;
 }
 
-
 form div {
     padding-top: 1rem;
     padding-left: .75rem;
     font-size: 1rem;
-
 }
 
 form label.top input,
@@ -375,7 +369,6 @@ input[type=range]::-webkit-slider-thumb {
     margin-top: -11px;
     /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
     box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-    /* Add cool effects to your sliders! */
 }
 
 input[type=range]::-moz-range-thumb {
@@ -459,8 +452,6 @@ textarea {
     text-align: center;
 }
 
-/* section three cities css */
-
 #threecities {
     display: grid;
     grid-template-columns: 1fr;
@@ -479,7 +470,6 @@ textarea {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5%;
-
 }
 
 #threecities p:nth-child(2) {
@@ -506,9 +496,6 @@ textarea {
     text-shadow: 2px 2px black;
 }
 
-
-/*-----------Soda Springs----------*/
-
 .information {
     display: grid;
     grid-template-columns: 1fr;
@@ -523,8 +510,6 @@ textarea {
 .information h2 {
     text-align: left;
 }
-
-/*-----------Fish Haven ----------*/
 
 .links {
     display: grid;
@@ -550,8 +535,6 @@ textarea {
     text-align: left;
 }
 
-/*----------- Footer --------------*/
-
 footer {
     background-color: #4f6368;
     color: #fff;
@@ -568,7 +551,7 @@ footer {
     clear: both;
 }
 
-/* Medium View */
+
 
 @media only screen and (min-width: 35em) {
 
@@ -587,11 +570,6 @@ footer {
     .motto {
         font-size: 1rem;
     }
-
-    /* navigation */
-
-
-    /* main */
 
     main figure.photo {
         width: 100%;
@@ -653,7 +631,6 @@ footer {
 
     .row h3 {
         padding: 3px;
-
     }
 
     .row p {
@@ -669,8 +646,6 @@ footer {
         width: 50%;
         float: right;
     }
-
-    /* table */
 
     table {
         /*border: 1px solid black;*/
@@ -696,6 +671,10 @@ footer {
         display: block;
         padding: 20px;
     }
+    
+    .forecast h2 {
+        margin: 0 0 15px 0;
+    }
 
     form input.submitBtn {
         border: none;
@@ -710,8 +689,6 @@ footer {
     footer {
         font-size: 16px;
     }
-
-    /* section three cities css */
 
     #threecities {
         display: grid;
@@ -777,12 +754,9 @@ footer {
         padding: 0;
         margin: 0;
     }
-
-
-
 }
 
-/* Large View */
+
 
 @media only screen and (min-width:75rem) {
 
@@ -876,13 +850,10 @@ footer {
         width: 50%;
     }
 
-    /* section three cities css */
-
     #threecities {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding: 10px 10px 15px;
-
     }
 
     .information {
