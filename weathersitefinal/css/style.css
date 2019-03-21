@@ -228,16 +228,17 @@ main figure.photo img {
 
 .sec3 img {
     border-radius: 5%;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .sec3 h2 {
-    padding: 0 1rem 0 1rem;}
+    padding: 0;
+    text-align: center;
+}
 
 .sec3 p {
-    padding: 0 0 0 20px;
+    padding: 10px 10px 20px 10px;
     margin: 0;
-    
 }
 
 .row {
@@ -513,7 +514,10 @@ textarea {
 }
 
 .information h2 {
-    text-align: left;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
 }
 
 .links {
@@ -527,7 +531,6 @@ textarea {
     padding: 0;
     margin: 0;
     text-align: center;
-
 }
 
 .links ul {
@@ -538,6 +541,7 @@ textarea {
 
 .links p {
     text-align: left;
+    padding: 0;
 }
 
 footer {
