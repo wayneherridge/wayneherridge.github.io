@@ -197,7 +197,7 @@ main figure.photo img {
 
 .sec2 {
     position: absolute;
-    top: 25px;
+    top: 15px;
     left: 15px;
     border: 1px solid #000;
     box-shadow: 0 0 30px #fff;
@@ -514,10 +514,13 @@ textarea {
     grid-template-columns: 1fr;
     grid-gap: 5px;
     padding: 15px;
-    text-align: center;
 }
 
 .information p {
+    text-align: left;
+}
+
+.information h2 {
     text-align: left;
 }
 
@@ -528,7 +531,19 @@ textarea {
     grid-template-columns: 1fr;
     grid-gap: 5px;
     padding: 15px;
+}
+
+.links h2 {
+    padding: 0;
+    margin: 0;
     text-align: center;
+
+}
+
+.links ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
 }
 
 .links p {
@@ -547,8 +562,6 @@ footer {
     width: 100%;
 }
 
-
-
 .clearfix:after {
     content: "";
     display: table;
@@ -558,7 +571,6 @@ footer {
 /* Medium View */
 
 @media only screen and (min-width: 35em) {
-
 
     /* header */
 
@@ -595,7 +607,7 @@ footer {
         margin: 10px auto;
         position: relative;
     }
-    
+
     .sec1 p {
         font-size: 12px;
     }
@@ -624,10 +636,11 @@ footer {
     }
 
     .sec2 img {
-    padding: 0;
-    width: 40px;
-    border-style: none;
-}
+        padding: 0;
+        width: 40px;
+        border-style: none;
+    }
+
     .sec3 figure.photo {
         width: 45%;
     }
@@ -681,7 +694,7 @@ footer {
 
     .forecast {
         display: block;
-        padding: 10px;
+        padding: 20px;
     }
 
     form input.submitBtn {
@@ -689,10 +702,9 @@ footer {
         background-color: #fe5f55;
         color: white;
         border-radius: 1rem;
-        padding: .75rem 1.5rem;
-        margin: 0 0 2rem 1.6rem;
+        margin: 0 10px 0 10px;
         width: 100%;
-        max-width: 87%;
+        max-width: 95%;
     }
 
     footer {
@@ -710,58 +722,59 @@ footer {
     #threecities article {
         width: 100%;
     }
-    
-   .information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    padding: 15px;
-    text-align: center;
-}
 
-.local p {
-    text-align: center;
-}
-    
+    .information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .local p {
+        text-align: center;
+    }
+
     .links {
-    display: grid;
-    grid-gap: 5px;
-    padding: 15px;
-    text-align: center;
-}
- 
+        display: grid;
+        grid-gap: 5px;
+        padding: 15px;
+        text-align: center;
+    }
+
     .links ul {
-    padding: 0;
+        padding: 0;
         margin: 0;
-}
+        list-style-type: none;
+    }
+
     .a {
         grid-column-start: 1;
-   grid-column-end: 4;
-   grid-row-start: 1;
-   grid-row-end: 2;
-
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
-    
+
     .b {
         grid-column-start: 1;
-   grid-column-end: 4;
-   grid-row-start: 2;
-   grid-row-end: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
-    
+
     .c {
-         grid-column-start: 4;
-   grid-column-end: 5;
-   grid-row-start: 1;
-   grid-row-end: 4;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
-    
-.links h2 {
-    text-align: left;
-}
+
+    .links h2 {
+        text-align: left;
+    }
 
     .links p {
-        padding:0;
+        padding: 0;
         margin: 0;
     }
 
@@ -833,7 +846,7 @@ footer {
     .weatherGallery img:hover {
         box-shadow: 0 0 15px #333;
     }
-    
+
     .sec2 {
         display: block;
         position: absolute;
@@ -852,12 +865,12 @@ footer {
     .sec2 ul {
         font-size: 15px;
     }
-    
+
     .sec2 img {
-    padding: 0;
-    width: 40px;
-    border-style: none;
-}
+        padding: 0;
+        width: 40px;
+        border-style: none;
+    }
 
     .sec3 figure.photo {
         width: 50%;
@@ -868,30 +881,30 @@ footer {
     #threecities {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-            padding: 10px 10px 15px;
+        padding: 10px 10px 15px;
 
     }
-    
+
     .information {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 5px;
-    padding: 15px;
-    text-align: center;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 5px;
+        padding: 15px;
+        text-align: center;
     }
-    
-    .links h2{
+
+    .links h2 {
         text-align: left;
     }
-    .b {
-        grid-column-start: 1;
-   grid-column-end: 4;
-   grid-row-start: 2;
-   grid-row-end: 3;
-    }
-    
 
-.local p {
-    text-align: left;
-}
+    .c {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .local p {
+        text-align: left;
+    }
 }
