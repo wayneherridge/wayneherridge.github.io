@@ -225,7 +225,7 @@ main figure.photo img {
     margin: 0 0 0 0;
     width: 60px;
     border-style: none;
-    
+
 }
 
 .sec3 img {
@@ -513,14 +513,13 @@ textarea {
 }
 
 .information p {
-    text-align: left;
+    text-align: justify;
 }
 
 .information h2 {
     text-align: center;
     padding: 0;
     margin: 0;
-
 }
 
 .links {
@@ -537,7 +536,7 @@ textarea {
 
 .links ul {
     list-style-type: none;
-    text-align: left;
+    text-align: center;
     padding: 0;
 }
 
@@ -567,7 +566,7 @@ footer {
 
 
 @media only screen and (min-width: 35em) {
-    
+
     header img {
         width: 180px;
     }
@@ -587,7 +586,7 @@ footer {
         margin: 0 0 0 2%;
         float: right;
     }
-    
+
     main h1 {
         font-size: 3rem;
     }
@@ -604,20 +603,20 @@ footer {
     .sec1 p {
         font-size: 12px;
     }
-    
+
     .sec2 {
         display: block;
         padding: .5rem;
         box-shadow: 0 0 30px #fff;
         float: left;
     }
-    
+
     .sec2 ul li {
-    font-size: 15px;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-    color: #fff;
-    list-style-type: none;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        color: #fff;
+        list-style-type: none;
     }
 
     .sec2 h3 {
@@ -638,7 +637,7 @@ footer {
     .sec3 p {
         padding: 20px;
     }
-    
+
     .sec3 h2 {
         text-align: left;
         padding-left: 15px;
@@ -681,10 +680,10 @@ footer {
         color: white;
     }
 
-    tr:nth-child(odd){
+    tr:nth-child(odd) {
         background-color: #b8d8d8;
     }
-    
+
     th,
     td {
         padding: 5px;
@@ -733,17 +732,23 @@ footer {
         text-align: center;
     }
 
+    .information figure.photo {
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
     .local p {
         text-align: center;
     }
 
     .links {
         display: grid;
-        text-align: center;
     }
 
     .links ul {
         list-style-type: none;
+        text-align: left;
+
     }
 
     .a {
@@ -852,12 +857,12 @@ footer {
         box-shadow: 0 0 30px #fff;
         float: left;
     }
-    
+
     .sec2 h3 {
         font-size: 30px;
         padding-bottom: 10px
     }
-    
+
     .sec2 ul li {
         font-size: 20px;
     }
@@ -871,7 +876,7 @@ footer {
     .sec3 figure.photo {
         width: 50%;
     }
-    
+
 
     #threecities {
         display: grid;
@@ -881,22 +886,36 @@ footer {
 
     .information {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 5px;
-        padding: 10px;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 20px;
+        padding: 20px;
         text-align: center;
+    }
+
+    .information figure.photo {
+        width: 50%;
     }
 
     .links h2 {
         text-align: left;
     }
 
+    .links figure.photo {
+        width: 30%;
+    }
+
     .c {
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 2;
     }
+
+    .c h2 {
+        padding: 0;
+        margin: 0;
+    }
+
 
     .local p {
         text-align: left;
