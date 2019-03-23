@@ -16,7 +16,7 @@ if (document.getElementById('preston') !=null) {
   
 let forecastRequest = new XMLHttpRequest();
 
-forecastRequest.open('GET', '//api.openweathermap.org/data/2.5/forecast?id=5061036&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+forecastRequest.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=5061036&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
 
 forecastRequest.send();
 
