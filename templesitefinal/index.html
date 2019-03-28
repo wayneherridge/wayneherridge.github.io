@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="templeinnandsuite.com">
+    <meta name="author" content="Wayne Herridge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+    <title>Home : Templeinnandsuite</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="scripts/hamburger.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/logo1.png" alt="logo" srcset="images/logo1.png 1x, images/logo1.png 2x, images/logo1.png 3x">
+        </figure>
+        <div>
+            <h1>Atmospheria</h1>
+            <div class="motto">Check the Weather. Wherever. Whenever.</div>
+        </div>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+
+
+    <main class="clearfix">
+            
+        
+            <h1>Town Summary</h1>
+            <section id="threecities"></section>
+
+    </main>
+
+    <footer>
+        &copy; Wayne Herridge &bull; <span id="currentDate"></span>
+    </footer>
+
+    <script src="scripts/towndata.js"></script>
+    <script src="scripts/currentdate.js"></script>
+</body>
+
+
+</html>
