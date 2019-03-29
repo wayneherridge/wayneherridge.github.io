@@ -1,70 +1,89 @@
 <!doctype html>
-
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="templeinnandsuite.com">
+    <meta name="description" content="Temple Inn and Suite Site">
     <meta name="author" content="Wayne Herridge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
-    <title>Home : Temple Inn & Suite</title>
+    <title>Temple Inn and Suite</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
     <link href="css/small.css" rel="stylesheet">
-    <link href="css/medium.css" rel="stylesheet">
-    <link href="css/large.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="large.css" rel="stylesheet">
 
-    <script src="scripts/hamburger.js"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="js/script.js"></script>
 
 </head>
 
 <body>
-    <header class="clearfix">
+    <!-- HEADER HERE -->
+    <header>
         <figure class="logo">
             <img src="images/logo1.png" alt="logo" srcset="images/logo1.png 1x, images/logo1.png 2x, images/logo1.png 3x">
         </figure>
-        <div>
-            <h1>Atmospheria</h1>
-            <div class="motto">Check the Weather. Wherever. Whenever.</div>
-        </div>
     </header>
 
-    <nav class="clearfix">
+
+    <!-- NAVIGATION HERE -->
+    <nav id="nav" class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Temple</a></li>
-            <li><a href="#">Reservation</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Temples</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#">Services</a>
+                <ul>
+                    <li><a href="#">Reception</a></li>
+                    <li><a href="#">Full-Time Temple Missionary</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
 
-
+    <!-- CONTENT HERE -->
     <main class="clearfix">
-            
-        
-            <h1>Town Summary</h1>
-            <section id="threecities"></section>
+
+        <div class="herodiv">
+
+            <section class="sec1">
+                <figure class="photo">
+                    <img src="images/0.jpg" alt="Temple Banner" sizes="100vw" srcset="images/200.jpg 400w,
+                    images/1100.jpg 1100w">
+                </figure>
+                <p>Weather Data Provided by : <a href="https://openweathermap.org/api">openweathermap.org/api</a></p>
+            </section>
+
+            <section class="sec2">
+                <h3>Current Conditions</h3>
+                <ul>
+                    <li>High: <span id="highTemp"></span>&deg;</li>
+                    <li>Low: <span id="lowTemp"></span>&deg;</li>
+                    <li>Wind: <span id="windSpeed"></span>mph</li>
+                    <li>Wind Chill: <span id="outputDiv"></span>&deg;</li>
+                </ul>
+                <img src="#" alt="current weather" id="weather_icon">
+            </section>
+
+        </div>
 
     </main>
 
+    <!-- FOOTER HERE -->
     <footer>
-        &copy; Wayne Herridge &bull; <span id="currentDate"></span>
+        Wayne Herridge &bull; <span id="currentDate"></span> &bull; <a href="#">reference page</a>
     </footer>
-
-    <script src="scripts/towndata.js"></script>
-    <script src="scripts/currentdate.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
 </body>
-
 
 </html>
