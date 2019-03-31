@@ -14,23 +14,47 @@ html {
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 10px 0 10px;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 1rem 0 1rem;
+    color: #7a9e9f;
 }
 
 /*----------- HEADER --------------*/
 header {
     text-align: center;
+    background-color: #8e8d8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#logo {
-    margin: 0 auto;
+header figure.logo img {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+
 }
 
 
 /*----------- NAVIGATION --------------*/
 
 nav button {
-    margin: .2rem 2%;
+    margin: 0;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
@@ -72,16 +96,102 @@ nav ul li:first-child a {
 }
 
 /*----------- MAIN --------------*/
-main {
-    padding: 0 2%;
-    min-height: 10rem;
+main figure.photo {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
+main figure.photo img {
+    width: 100%;
+}
+
+.herodiv {
+    position: relative;
+}
+
+.herodiv p {
+    padding:0;
+    margin: 0;
+    font-size: 6px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.herodiv .btn {
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    border-radius: 5%;
+}
+
+.herodiv .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.sec2 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid #000;
+    box-shadow: 0 0 30px #fff;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    background: rgba(76, 175, 80, 0.3);
+    padding: 0 10px 0 0;
+    border-radius: 5px;
+}
+
+.sec2 h3 {
+    font-size: 15px;
+    text-shadow: 2px 2px #000;
+    padding: 0 0 0 10px;
+}
+
+.sec2 ul {
+    padding: 0 0 10px 10px;
+}
+
+.sec2 ul li {
+    margin: 0 0 0 0;
+    color: #fff;
+    list-style-type: none;
+}
+
+.sec3 img {
+    width: 100%;
+        padding: 0 5px 0 5px;
+
+}
+
+
+.sec3 figcaption {
+    font-size: .6rem;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.sec4 h1 {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center
+}
+
+.sec4 img {
+    padding: 0 5px 0 5px;
+}
+
+.sec4 p {
+    text-align: justify;
+        text-justify: inter-word;
+}
 
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
-    font-size: .63rem;
+    font-size: .5rem;
     padding: .5rem 2%;
     text-align: center;
 }
