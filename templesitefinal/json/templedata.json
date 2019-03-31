@@ -1,6 +1,7 @@
+{  
+"squadName" : "Super hero squad",
+"temples" : [
 {
-  "temples" : [
-  {
     "name": "London England Temple",
     "closures2019" : [
       "Tuesday, August 6, 2019 - Monday, September 16, 2019",
@@ -37,7 +38,7 @@
   {
     "name": "Paris France Temple",
     "closures2019" : [
-      "Saturday, April 6, 2019,
+      "Saturday, April 6, 2019",
       "Monday, June 3, 2019 - Monday, June 17, 2019",
       "Saturday, October 5, 2019",
       "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
