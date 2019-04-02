@@ -1,3 +1,104 @@
-@media only screen and (min-width: 35em) { 
-    
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+
+
+
+    /*----------- HEADER --------------*/
+
+    header figure.logo img {
+        width: 130px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    /*----------- NAVIGATION --------------*/
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        width: auto;
+    }
+
+    nav ul li:first-child a {
+        border-left: 1px solid #777;
+    }
+
+    nav ul li:last-child a {
+        border-right: 1px solid #777;
+    }
+
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+
+
+
+    /*----------- MAIN --------------*/
+
+    .herodiv .btn {
+        position: absolute;
+        height: 40px;
+        top: 75%;
+        left: 17.5rem;
+        border-radius: 5%;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .sec2 {
+        top: 20px;
+        display: block;
+        display: inline-block;
+        float: left;
+        padding-left: 3px;
+    }
+
+    .sec2 h3 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sec2 ul li {
+        display: inline-block;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    .sec3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .sec3 figcaption {
+        font-size: 16px
+    }
+
+    .sec4 img {
+        border-radius: 5%;
+        padding: 0 10px 0 10px;
+    }
+
+    .sec4 figure.photo {
+        width: 45%;
+    }
+
+    /*----------- FOOTER --------------*/
+    footer {
+        font-size: 16px;
+    }
+
 }
+
+/* end of media query */
