@@ -49,8 +49,8 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="temples.html">Temples</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li class="active"><a href="reservations.html">Reservations</a></li>
             <li><a href="#">Services</a>
                 <ul class="dropdown">
                     <li><a href="#">Reception</a></li>
@@ -63,43 +63,53 @@
 
     <!-- CONTENT HERE -->
     <main class="clearfix">
-        <h1>Temples</h1>
-<div class="templegrid">
-        
-        <article>
-            <img src="images/temples-ps6.jpg" alt="Sample photo">
-            <div class="text">
-                <h3>London England Temple</h3>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-                <button>More Information...</button>
-            </div>
-        </article>
-        <article>
-            <img src="/pix/samples/24m.jpg" alt="Sample photo">
-            <div class="text">
-                <h3>Preston England Temple</h3>
-                <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
-                <button>Here's how</button>
-            </div>
-        </article>
-        <article>
-            <img src="/pix/samples/22l.jpg" alt="Sample photo">
-            <div class="text">
-                <h3>Rome Italy Temple</h3>
-                <p>Completely synergize resource taxing relationships via premier niche markets.</p>
-                <button>Read more</button>
-            </div>
-        </article>
-        <article>
-            <img src="/pix/samples/15l.jpg" alt="Sample photo">
-            <div class="text">
-                <h3>Paris France Temple</h3>
-                <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
-                <button>Just do it...</button>
-            </div>
-        </article>
-        </div>
+        <h1>Make Reservations</h1>
+        <h3>Please enter your details below</h3>
 
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Temple Information</legend>
+                
+                <label class="top">Temple Location
+                    <input list="location" name="location" placeholder="Select Temple &#9662;">
+                    <datalist id="location">
+                        <option value="London England">
+                        <option value="Preston England">
+                        <option value="Paris France">
+                        <option value="Rome Italy">
+                    </datalist>
+                </label>
+                
+                <label class="top">Reservation Date <input type="date" name="resdate"></label>
+                
+                <label class="top">Number of Rooms (1-10) - <span id="ratingvalue">0</span>
+                    <input type="range" id="roomno" value="0" name="roomno" min="0" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
+                
+                <label class="top">Type of Room
+                    <select name="region">
+                        <option value="" disabled selected>Select Room Type ... &#9662;</option>
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="family">Family</option>
+
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Details</legend>
+
+                <label class="top">Full Name *<input type="text" name="fullname" pattern="[A-Za-z].{5,}" required></label>
+                
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone *<input type="tel" name="phone" placeholder="1235551234" required></label>
+                
+                <label class="top">Home State/Country *<input type="text" name="state" required></label>
+
+                <label class="top">Special Accomodations/Comments<textarea name="info" rows="3" cols="20" wrap="hard"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Send My Storm Report" class="submitBtn">
+        </form>
 
         <div class="row">
             <section class="sec5">

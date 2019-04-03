@@ -11,9 +11,6 @@
 
     /*----------- NAVIGATION --------------*/
 
-    nav ul {
-        margin-left: 2%;
-    }
 
     nav ul li {
         width: auto;
@@ -86,6 +83,8 @@
 
     .sec4 figure.photo {
         width: 45%;
+        padding-bottom: 5px;
+        padding-left: 5px;
     }
 
     .templegrid {
@@ -93,6 +92,12 @@
         padding: 10px
     }
     
+   
+    form {
+    display: grid;
+    grid-template-columns: 2fr;
+    margin: 0;
+}
 
     /*----------- FOOTER --------------*/
     footer {
