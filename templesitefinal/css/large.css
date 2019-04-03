@@ -149,4 +149,9 @@
         padding: 0 0 10px 10px;
         margin: 0;
     }
+    
+     .templegrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 10px
+    }
 }
