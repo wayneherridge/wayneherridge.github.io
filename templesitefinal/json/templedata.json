@@ -1,5 +1,6 @@
 {  
-"temples" : [
+    "squadName" : "Temple",
+    "temples" : [
 {
     "name": "London England Temple",
     "closures2019" : [
