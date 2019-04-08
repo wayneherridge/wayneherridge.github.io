@@ -100,36 +100,20 @@
         margin: 0;
     }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+
+    .templedata{
+    display:grid;
+grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+
+    /*------------Reception ---------*/
+    
+    
+    
 }
     
-    .sec-temple {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .temp-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .temp-row iframe {
-        height: calc(90vh - 255px);
-    }
-    
-    .rec-wrapper {
-    grid-template-columns: 1fr 1fr;
-    }
-    
-    
-    
-    }
     
 
 

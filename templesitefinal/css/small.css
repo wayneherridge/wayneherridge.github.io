@@ -247,97 +247,57 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 5px;
 }
 
-/* temples */
-
-.temple-nav li {
-    font-size: 13px;
-    display: inline-block;
-    padding: 5px;
+/*----------Temples Page------------------*/
+.templedata{
+    display:grid;
+grid-template-columns: 1fr;
+  width: 100%;
 }
 
-article {
-    grid-area: content;
+.templedata article {
+    width: auto;
+    margin: 2rem 2%;
+    padding:5px;
+    border:3px solid #508991;
+    border-radius: 10px;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-    font-size: 0;
-    
+.templedata h2{
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin-top:0;
+    margin-bottom: 10px;
 }
 
-.topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-size: 12px;
+.templedata p{
+    margin-bottom:8px;
 }
 
-.topnav li {
-        list-style-type: none;
-
+.templedata li{
+    font-size:small;
+    margin-bottom:5px;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #8e8d8a;
-  color: #000;
-    font-style: italic; 
+.templedata article img {
+    display: grid;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 100%
 }
 
 .sec-temple {
-    background-color: #eae7dc;
-    border-top-color: black;
-    padding: 5px 0 5px 0;
-    text-align: left;
-    border-style: solid;
-    border-width: 1px;
+    padding: 10px
 }
 
-.temp-subhead {
-    font-weight: bolder;
-    text-shadow: 1px 1px #000;
+.sec-temple h1 {
+    font-size: 30px;
+    text-align: center
 }
 
+/*-------- Reception -----------*/
 
-.sec-temple p {
-margin: 0 0 1rem 0;}
 
-.temp-row {
-    background-color: #eae7dc;
-    border-top-color: #000;
-    padding: 5px 0 5px 0;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.temp-row h3 {
-    margin: 10px 0 5px 0;
-    color: #000;
-    font-size: 25px;
-}
-
-.temp-row iframe {
-    padding: 10px;
-    
-}
-
-.content {
-  grid-area: content;
-}
-
-.rec-wrapper {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-areas: 
-    "content";
-}
 
 
 /*----------- FOOTER --------------*/

@@ -18,9 +18,9 @@
         "7 September 1958 - Dedicated",
         "18 October 1992 - Rededicated"
     ],
-    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (44) 1342 831-400",
-    "sessionSchedule" : "No Sessions in selected language available for this day",
-    "templeClosureSchedule" : [
+    "ordSched" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (44) 1342 831-400",
+    "sesSched" : "No Sessions in selected language available for this day",
+    "closureSchedule" : [
         "Tuesday, 6 August 2019 - Monday, 16 September 2019"
     ]
   },
@@ -40,9 +40,9 @@
         "12 June 1994 - Groundbreaking",
         "7 June 1998 - Dedicated"
     ],
-    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (44) 1257-226-100",
-    "sessionSchedule" : "No Sessions in selected language available for this day",
-    "templeClosureSchedule" : [
+    "ordSched" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (44) 1257-226-100",
+    "sesSched" : "No Sessions in selected language available for this day",
+    "closureSchedule" : [
         "Monday, 15 July 2019 - Monday, 29 July 2019",
         "Saturday, 5 October 2019 (Limited Hours)",
         "Saturday, 5 October 2019",
@@ -73,9 +73,9 @@
         "10 March 2019   - Dedicated"
 
     ],
-    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (39) 06-9480-5050",
-    "sessionSchedule" : "No Sessions in selected language available for this day",
-    "templeClosureSchedule" : [
+    "ordSched" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (39) 06-9480-5050",
+    "sesSched" : "No Sessions in selected language available for this day",
+    "closureSchedule" : [
         "Saturday, 29 June 2019",
         "Monday, 30 September 2019 - Monday, 14 October 2019",
         "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
@@ -98,9 +98,9 @@
         "24 August 2012 - Groundbreaking",
         "21 May 2017    - Dedicated"
     ],
-    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (33) 970-73-70-00",
-    "sessionSchedule" : "No Sessions in selected language available for this day",
-    "templeClosureSchedule" : [
+    "ordSched" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (33) 970-73-70-00",
+    "sesSched" : "No Sessions in selected language available for this day",
+    "closureSchedule" : [
         "Monday, 3 June 2019 - Monday, 17 June 2019",
         "Saturday, 5 October 2019",
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
