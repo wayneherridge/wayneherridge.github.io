@@ -6,7 +6,7 @@
     <meta name="description" content="Temple Inn and Suite Site">
     <meta name="author" content="Wayne Herridge">
 
-    <title>Temples | Temple Inn and Suite</title>
+    <title>Wedding Receptions | Temple Inn and Suite</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -49,12 +49,12 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="temples.html">Temples</a></li>
+            <li><a href="temples.html">Temples</a></li>
             <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="services.html">Services</a>
+            <li class="active"><a href="services.html">Services</a>
                 <ul class="dropdown">
                     <li><a href="#">Reception</a></li>
-                    <li><a href="#">Full-Time Temple Missionary</a></li>
+                    <li><a href="#">Full-Time Temple Missionaries</a></li>
                 </ul>
             </li>
             <li><a href="#">Contact Us</a></li>
@@ -63,8 +63,25 @@
 
     <!-- CONTENT HERE -->
     <main class="clearfix">
-        <h1>temple</h1>
-        <section class="templedata"></section>
+        <div class="topnav">
+            <ul>
+                <li class="active"><a href="reception.html">Wedding Receptions</a></li>
+                <li><a href="#">Full-Time Temple Missionaries</a></li>
+            </ul>
+        </div>
+
+        <h1>Wedding Reception Service</h1>
+        <div class="rec-wrapper">
+        <article class="rec-content1">
+            <h1>Main article area</h1>
+            <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+            
+            <figure class="photo"><img src="images/rome-sealing-room.jpg" alt="Sealing Room">
+                <figcaption>Rome Sealing Room</figcaption>
+            </figure>
+        </article>
+        </div>
+
     </main>
 
     <!-- FOOTER HERE -->
@@ -73,7 +90,7 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/weather.js"></script>
-    <script src="js/templedata.js"></script>
+    <script src="js/closures.js"></script>
 </body>
 
 </html>

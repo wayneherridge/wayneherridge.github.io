@@ -33,6 +33,8 @@
 
     /*----------- MAIN --------------*/
 
+    /*----------- Home Page --------------*/
+
     .herodiv .btn {
         position: absolute;
         height: 40px;
@@ -46,7 +48,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
 
     .sec2 {
         top: 20px;
@@ -91,13 +92,46 @@
         grid-template-columns: 1fr 1fr;
         padding: 10px
     }
-    
-   
+
+
     form {
-    display: grid;
-    grid-template-columns: 2fr;
-    margin: 0;
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 0;
+    }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+    
+    .sec-temple {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .temp-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .temp-row iframe {
+        height: calc(90vh - 255px);
+    }
+    
+    .rec-wrapper {
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    
+    }
+    
+
 
     /*----------- FOOTER --------------*/
     footer {

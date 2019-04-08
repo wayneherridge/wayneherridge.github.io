@@ -1,47 +1,109 @@
-{  
-"temples" : [
 {
+  "temples" : [
+  {
     "name": "London England Temple",
-    "closures2019" : [
-      "Tuesday, August 6, 2019 - Monday, September 16, 2019",
+    "address": "West Park Road, Newchapel, Surrey, England, RH7 6HW",
+    "telephone": "(44) 1342 831-400",
+    "email": "Log in to lds.org to send email to temple",
+    "services": [ 
+        "Clothing rental available",
+        "Cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+    ],
+    "history": [
+        "10 August 1953  - Announced",
+        "27 August 1955 - Groundbreaking",
+        "7 September 1958 - Dedicated",
+        "18 October 1992 - Rededicated"
+    ],
+    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (44) 1342 831-400",
+    "sessionSchedule" : "No Sessions in selected language available for this day",
+    "templeClosureSchedule" : [
+        "Tuesday, 6 August 2019 - Monday, 16 September 2019"
     ]
   },
   {
     "name": "Preston England Temple",
-    "closures2019" : [
-      "Saturday, April 6, 2019 (Limited Hours)",
-      "Saturday, April 6, 2019",
-      "Monday, July 15, 2019 - Monday, July 29, 2019",
-      "Saturday, October 5, 2019 (Limited Hours)",
-      "Saturday, October 5, 2019",
-      "Tuesday, December 17, 2019 - Friday, December 20, 2019 (Limited Hours)",
-      "Saturday, December 21, 2019 (Limited Hours)",
-      "Tuesday, December 24, 2019",
-      "Wednesday, December 25, 2019",
-      "Thursday, December 26, 2019",
-      "Friday, December 27, 2019 (Limited Hours)",
-      "Saturday, December 28, 2019 (Limited Hours)",
-      "Tuesday, December 31, 2019"
+    "address": "Temple Way, Hartwood Green, Chorley, Lancashire, England, PR6 7EQ",
+    "telephone": "(44) 1257-226-100",
+    "email": "Not available",
+    "services": [ 
+        "Clothing rental available",
+        "Cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+    ],
+    "history": [
+        "19 October 1992 - Announced",
+        "12 June 1994 - Groundbreaking",
+        "7 June 1998 - Dedicated"
+    ],
+    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (44) 1257-226-100",
+    "sessionSchedule" : "No Sessions in selected language available for this day",
+    "templeClosureSchedule" : [
+        "Monday, 15 July 2019 - Monday, 29 July 2019",
+        "Saturday, 5 October 2019 (Limited Hours)",
+        "Saturday, 5 October 2019",
+        "Tuesday, 17 December 2019 - Friday, 20 December 2019 (Limited Hours)",
+        "Saturday, 21 December 2019 (Limited Hours)",
+        "Tuesday, 24 December 2019",
+        "Wednesday, 25 December 2019",
+        "Thursday, 26 December 2019",
+        "Friday, 27 December 2019 (Limited Hours)",
+        "Saturday, 28 December 2019 (Limited Hours)",
+        "Tuesday, 31 December 2019"
     ]
   },
   {
     "name": "Rome Italy Temple",
-    "closures2019" : [
-      "Saturday, April 6, 2019",
-      "Saturday, June 29, 2019",
-      "Monday, September 30, 2019 - Monday, October 14, 2019",
-      "Tuesday, December 24, 2019 - Thursday, December 26, 2019",
-      "Tuesday, December 31, 2019"
+    "address": "Via di Settebagni 376, Rome RM, Italy",
+    "telephone": "(39) 06-9480-5050",
+    "email": "Log in to send email to temple",
+    "services": [ 
+        "Clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+    ],
+    "history": [
+        "4 October 2008  - Announced",
+        "23 October 2010 - Groundbreaking",
+        "10 March 2019   - Dedicated"
+
+    ],
+    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (39) 06-9480-5050",
+    "sessionSchedule" : "No Sessions in selected language available for this day",
+    "templeClosureSchedule" : [
+        "Saturday, 29 June 2019",
+        "Monday, 30 September 2019 - Monday, 14 October 2019",
+        "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+        "Tuesday, 31 December 2019"    
     ]
   },
   {
     "name": "Paris France Temple",
-    "closures2019" : [
-      "Saturday, April 6, 2019",
-      "Monday, June 3, 2019 - Monday, June 17, 2019",
-      "Saturday, October 5, 2019",
-      "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
-      "Tuesday, December 31, 2019 - Wednesday, January 1, 2020"
+    "address": "46 Boulevard Saint Antoine, 78150 Le Chesnay, France",
+    "telephone": "(33) 970-73-70-00",
+    "email": "Log in to send email to temple",
+    "services": [ 
+        "No clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "No distribution center nearby"
+    ],
+    "history": [
+        "1 October 2011 - Announced",
+        "24 August 2012 - Groundbreaking",
+        "21 May 2017    - Dedicated"
+    ],
+    "ordinanceSchedule" : "A full list of ordinances can be found at ChurchofJesusChrist.org. To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (33) 970-73-70-00",
+    "sessionSchedule" : "No Sessions in selected language available for this day",
+    "templeClosureSchedule" : [
+        "Monday, 3 June 2019 - Monday, 17 June 2019",
+        "Saturday, 5 October 2019",
+        "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"  
     ]
   }
  ]
