@@ -1,5 +1,5 @@
 var section = document.querySelector('section')
-var requestURL = "//wayneherridge.github.io/templesitefinal/json/templedata.json";
+var requestURL = "https://wayneherridge.github.io/templesitefinal/json/templedata.json";
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
@@ -42,7 +42,6 @@ function showData(jsonObj) {
         } else if (places[i].name == "Paris France Temple") {
             myImg.setAttribute('src', 'images/parisTemple.jpeg');
             myImg.setAttribute('alt', 'Paris France Temple');
-
         }
 
         myH2.textContent = places[i].name;
@@ -51,27 +50,26 @@ function showData(jsonObj) {
         myPara3.textContent = 'Email: ' + places[i].email;
         myPara4.textContent = 'Services: ';
         myPara5.textContent = 'History: ';
-        myPara6.textContent = 'Ordinance Schedule: ' + places[i].ordinanceSchedule;
-        myPara7.textContent = 'Session Schedule: ' + places[i].sessionSchedule;
+        myPara6.textContent = 'Ordinance Schedule: ' + places[i].ordSched;
+        myPara7.textContent = 'Session Schedule: ' + places[i].sesSched;
         myPara8.textContent = 'Temple Closure Schedule';
 
-
-        var templeServices = places[i].services;
-        for (var j = 0; j < templeServices.length; j++) {
+        var services = places[i].services;
+        for (var j = 0; j < services.length; j++) {
             var listItem = document.createElement('li');
-            listItem.textContent = templeServices[j];
+            listItem.textContent = services[j];
             myList1.appendChild(listItem);
         }
-        var templeHistory = places[i].history;
-        for (var j = 0; j < templeHistory.length; j++) {
+        var history = places[i].history;
+        for (var j = 0; j < history.length; j++) {
             var listItem = document.createElement('li');
-            listItem.textContent = templeHistory[j];
+            listItem.textContent = history[j];
             myList2.appendChild(listItem);
         }
-        var templeClosureSchedule = places[i].templeClosureSchedule;
-        for (var j = 0; j < templeClosureSchedule.length; j++) {
+        var closureSchedule = places[i].closureSchedule;
+        for (var j = 0; j < closureSchedule.length; j++) {
             var listItem = document.createElement('li');
-            listItem.textContent = templeClosureSchedule[j];
+            listItem.textContent = closureSchedule[j];
             myList3.appendChild(listItem);
         }
         myArticle.appendChild(myImg);
@@ -89,6 +87,7 @@ function showData(jsonObj) {
         myArticle.appendChild(myList3);
 
         section.appendChild(myArticle);
-
     }
+
 }
+

@@ -1,6 +1,12 @@
 let weatherRequest = new XMLHttpRequest();
 
+
 weatherRequest.open('GET','http://api.openweathermap.org/data/2.5/weather?id=2650435&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+
+//london = 2650435
+//preston = 2639912
+//rome = 6539761
+//paris = 2988507
 
 weatherRequest.send();
 
@@ -19,24 +25,73 @@ weatherRequest.onload = function() {
     var lowTemp = parseFloat(document.getElementById('highTemp').innerHTML = weatherData.main.temp_max);
     var highTemp = parseFloat(document.getElementById('lowTemp').innerHTML = weatherData.main.temp_min);
     var windSpeed = parseFloat(document.getElementById('sky').innerHTML = weatherData.weather[0].main);
-    
-    var iconcode = weatherData.weather[0].icon;
-    var icon_path = "http://openweathermap.org/img/w/" + iconcode + ".png";
-    document.getElementById('weather_icon').src = icon_path;
   
   var temp = (lowTemp + highTemp) / 2;
 
-  var wc = windChill(temp, windSpeed);
-
-  document.getElementById("outputDiv").innerHTML = wc.toFixed(2);
 }
 
-// ------ Processing ------ 
-function windChill(temp, speed) {
-    // works out the wind chill by using the formula below
+// London
 
-    var spd = Math.pow(speed, 0.16);
-    var wc = (35.74 + (0.6215 * temp) - (35.75 * spd) + (0.4275 * temp * spd));
+let weatherRequest2 = new XMLHttpRequest();
 
-  return wc;
-}
+weatherRequest2.open('GET','//api.openweathermap.org/data/2.5/weather?id=2650435&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+
+weatherRequest2.send();
+
+weatherRequest2.onload = function(){
+    let weatherInfo = JSON.parse(weatherRequest2.responseText);
+    console.log(weatherInfo);
+
+    document.getElementById('current-temp2').innerHTML = weatherInfo.main.temp;
+    
+
+}//end of the function
+
+// Preston
+
+let weatherRequest3 = new XMLHttpRequest();
+
+weatherRequest3.open('GET','//api.openweathermap.org/data/2.5/weather?id=2639912&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+
+weatherRequest3.send();
+
+weatherRequest3.onload = function(){
+    let weatherInfo = JSON.parse(weatherRequest3.responseText);
+    console.log(weatherInfo);
+
+    document.getElementById('current-temp3').innerHTML = weatherInfo.main.temp;
+    
+
+}//end of the function
+
+// Rome 
+let weatherRequest4 = new XMLHttpRequest();
+
+weatherRequest4.open('GET','//api.openweathermap.org/data/2.5/weather?id=6539761&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+
+weatherRequest4.send();
+
+weatherRequest4.onload = function(){
+    let weatherInfo = JSON.parse(weatherRequest4.responseText);
+    console.log(weatherInfo);
+
+    document.getElementById('current-temp4').innerHTML = weatherInfo.main.temp;
+    
+
+}//end of the function
+
+let weatherRequest5 = new XMLHttpRequest();
+
+weatherRequest5.open('GET','//api.openweathermap.org/data/2.5/weather?id=2988507&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+
+weatherRequest5.send();
+
+weatherRequest5.onload = function(){
+    let weatherInfo = JSON.parse(weatherRequest5.responseText);
+    console.log(weatherInfo);
+
+    document.getElementById('current-temp5').innerHTML = weatherInfo.main.temp;
+    
+
+}//end of the function
+

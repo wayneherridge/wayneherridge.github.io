@@ -94,33 +94,139 @@
     }
 
 
-    form {
+
+    .templedata {
         display: grid;
-        grid-template-columns: 2fr;
-        margin: 0;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
     }
 
-
-    .templedata{
-    display:grid;
-grid-template-columns: 1fr 1fr;
-  width: 100%;
-}
-
+    .temple-weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
 
     /*------------Reception ---------*/
-    
-    
-    
-}
-    
-    
 
-
-    /*----------- FOOTER --------------*/
-    footer {
-        font-size: 16px;
+    .wedding-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
     }
+
+    .wedding-container div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    .wedding-container h3 {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    
+    .wedding-container p:first-child {
+        margin-top: 84px
+    }
+    
+    .wedding-container figcaption {
+        font-size: 11px;
+        font-style: normal;
+    }
+
+    .catering-pic {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+    }
+    
+    .item4 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .item5 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    /* ------ services ---------- */
+
+    .temple-services {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .temple-services section {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+
+    .services {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+    .tempwed h2{
+        margin: 0;
+    }
+    
+    .services ul {
+        text-align: left;
+    }
+
+}
+
+/* -------- mission -------------*/
+
+.mission-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.mission-container div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+    border: solid;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item4 {
+    grid-column-start: 3;
+  grid-column-end: 4;
+}
+/*----------- FOOTER --------------*/
+footer {
+    font-size: 16px;
+}
 
 }
 

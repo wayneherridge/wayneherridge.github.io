@@ -28,7 +28,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6
+{
     font-family: 'Raleway', sans-serif;
     padding: 0 1rem 0 1rem;
     color: #8e8d8a;
@@ -217,36 +218,6 @@ main figure.photo {
 
 }
 
-
-/* form */
-
-
-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0;
-}
-
-input:focus,
-textarea:focus {
-    outline: 3px solid gold;
-}
-
-input,
-textarea,
-.submitBtn {
-    width: 100%;
-    border: 1px solid #000;
-}
-
-input[type=range]:focus::-ms-fill-upper {
-    background: #367ebd;
-}
-
-.submitBtn {
-    margin: 5px;
-}
-
 /*----------Temples Page------------------*/
 .templedata{
     display:grid;
@@ -272,7 +243,7 @@ grid-template-columns: 1fr;
 
 .templedata p{
     margin-bottom:8px;
-}
+} 
 
 .templedata li{
     font-size:small;
@@ -297,14 +268,240 @@ grid-template-columns: 1fr;
 
 /*-------- Reception -----------*/
 
+/*------- Reservations -------*/
+
+/* -------------- Form -------------- */
+
+main h1, main h3 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    max-width: 350px;
+    margin: auto;
+}
+
+form fieldset {
+    margin: 1rem 0;
+    border: 1px solid #4f6367;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #4f6367;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div,
+textarea {
+    display: block;
+    padding-top: 1rem;
+    color: #fe5f55;
+    font-size: 1rem;
+}
+
+label.top,
+option,
+input,
+form div,
+textarea {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 10px 0 10px;
+    font-size: 1rem;
+}
 
 
+form div {
+    padding-top: 1rem;
+    padding-left: .75rem;
+    font-size: 1rem;
+
+}
+
+form label.top input,
+form label.top select,
+textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    padding: .75rem 1.5rem;
+    color: #4f6367;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 1.5rem;
+    color: #4f6367;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #fe5f55;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem;
+    margin: 0 .65rem 1rem;
+    width: 95%;
+    max-width: 100%;
+}
+
+form input.sumitBtn:hover {
+    background-color: #4f6367;
+    color: #fff;
+}
+
+form label.top input:required {
+    border-right: #fe5f55 solid 6px;
+}
+
+form label.top input:required:valid {
+    border-right: #4f6367 solid 6px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -11px;
+    /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    /* Add cool effects to your sliders! */
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 40px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 40px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #7a9e9f;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #2a6495;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #3071a9;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #3071a9;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #367ebd;
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.temple-weather {
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+
+.temple-weather div {
+    border: solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* ------------- Receptions -------------*/
+
+.wedding-container li {
+    margin-right: 10px;
+}
+
+.wedding-container figcaption {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
 
 /*----------- FOOTER --------------*/
 footer {
     background-color: #8e8d8a;
     color: #000;
-    font-size: .5rem;
+    font-size: 5px;
     padding: .5rem 2%;
     text-align: center;
 }

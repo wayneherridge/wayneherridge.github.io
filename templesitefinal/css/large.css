@@ -154,6 +154,7 @@
         padding: 0 0 10px 10px;
         margin: 0;
     }
+  
 .templedata{
     display:grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -167,6 +168,14 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top:0;
     margin-bottom: 10px;
 }
+    
+    .temple-weather {
+        display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
     
   /*--------- Reception Page --------*/
    

@@ -21,3 +21,7 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 
 }
+
+function adjustRating(severity) {
+    document.getElementById("ratingvalue").innerHTML = severity;
+}
