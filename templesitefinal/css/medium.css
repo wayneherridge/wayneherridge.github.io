@@ -123,16 +123,16 @@
         padding: 20px 0;
         font-size: 30px;
     }
-    
+
     .wedding-container h3 {
         padding: 0;
         margin-bottom: 10px;
     }
-    
+
     .wedding-container p:first-child {
         margin-top: 84px
     }
-    
+
     .wedding-container figcaption {
         font-size: 11px;
         font-style: normal;
@@ -142,14 +142,14 @@
         grid-column-start: 1;
         grid-column-end: 3;
     }
-    
+
 
     .item3 {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
     }
-    
+
     .item4 {
         grid-column-start: 2;
         grid-column-end: 4;
@@ -165,8 +165,6 @@
     .temple-services {
         display: grid;
         grid-template-columns: auto auto auto;
-        grid-gap: 10px;
-        padding: 10px;
     }
 
     .temple-services section {
@@ -176,15 +174,16 @@
 
 
     .services {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-    .tempwed h2{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .tempwed h2 {
         margin: 0;
     }
-    
+
     .services ul {
         text-align: left;
     }
@@ -193,36 +192,18 @@
 
 /* -------- mission -------------*/
 
-.mission-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
+.temple-miss img {
+    border-radius: 5%;
+    padding: 0 10px 0 10px;
 }
 
-.mission-container div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-    border: solid;
+.temple-miss figure.photo {
+    width: 45%;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
-.item2 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
 
-.item3 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.item4 {
-    grid-column-start: 3;
-  grid-column-end: 4;
-}
 /*----------- FOOTER --------------*/
 footer {
     font-size: 16px;

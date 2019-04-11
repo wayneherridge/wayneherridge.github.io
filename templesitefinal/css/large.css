@@ -179,6 +179,9 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
     
   /*--------- Reception Page --------*/
    
-    
+/* ----- mission page ---- */
+    .temple-miss figure.photo {
+        width: 50%;
+    }
     
     }

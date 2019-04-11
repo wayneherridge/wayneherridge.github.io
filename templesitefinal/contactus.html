@@ -54,25 +54,53 @@
             <li><a href="services.html">Services</a>
                 <ul class="dropdown">
                     <li><a href="reception.html">Wedding Receptions</a></li>
-                    <li class="active"><a href="fulltimemiss.html">Full-Time Temple Missionaries</a></li>
+                    <li><a href="fulltimemiss.html">Full-Time Temple Missionaries</a></li>
                 </ul>
             </li>
-            <li><a href="contactus.html">Contact Us</a></li>
+            <li class="active"><a href="contactus.html">Contact Us</a></li>
         </ul>
     </nav>
 
     <!-- CONTENT HERE -->
     <main class="clearfix">
-        <h1>Single and Double Rooms</h1>
-        <section class="temple-miss">
-            <article class="clearfix">
-                <figure class="photo"><img src="images/mission-double.jpeg" alt="Single and Double Rooms">
-                    <figcaption>Single and Double Rooms</figcaption>
-                </figure>
-                <p>Our Single and Small Double Rooms are inspired by astronomy, with intricate wallpaper and enormous velvet headboards. All rooms have small double beds decked in pillowy duvets and plump cushions. Intimate yet luxurious, these rooms are a good choice for a night or two in London, providing a comfortable space to retreat to after a busy day. En suite bathrooms feature either a walk-in shower or a shower and bath combination. As with all of our rooms, delicately scented L’Occitane toiletries are provided.</p>
-            </article>
-        </section>
+        <h1>Contact Us</h1>
+        
+<div class="row">
+            <section class="sec5">
+                <h3>Address</h3>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda</p>
+                <p>MD 20814</p>
+            </section>
 
+            <section class="sec6">
+                <h3>Map</h3>
+                <iframe width='100%' height='100%' id='mapcanvas' src='https://maps.google.com/maps?q=md%2020814&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
+                    <div class="zxos8_gm"><a href="https://www.xpediatyre.co.uk/clients/">XpediaTyre</a></div>
+                    <div style='overflow:hidden;'>
+                        <div id='gmap_canvas' style='height:100%;width:100%;'></div>
+                    </div>
+                    <div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div>
+                </iframe>
+            </section>
+        </div>
+        
+        <form method="get" action="enquirythanks.html">
+                
+            <fieldset>
+                <legend>Your Details</legend>
+
+                <label class="top">Full Name *<input type="text" name="fullname" pattern="[A-Za-z].{5,}" required></label>
+                
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone *<input type="tel" name="phone" placeholder="1235551234" required></label>
+                
+                <label class="top">Home State/Country *<input type="text" name="state" required></label>
+
+                <label class="top">Special Accomodations/Comments<textarea name="info" rows="3" cols="20" wrap="hard"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Book my Accomodation" class="submitBtn">
+        </form>
 
     </main>
 

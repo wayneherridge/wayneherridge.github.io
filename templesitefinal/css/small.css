@@ -28,8 +28,7 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
+h6 {
     font-family: 'Raleway', sans-serif;
     padding: 0 1rem 0 1rem;
     color: #8e8d8a;
@@ -53,7 +52,8 @@ header figure.logo img {
 
 /*----------- NAVIGATION --------------*/
 
-nav, .topnav{
+nav,
+.topnav {
     background: rgb(142, 141, 138);
     background: -moz-linear-gradient(0deg, rgba(142, 141, 138, 1) 0%, rgba(216, 195, 165, 1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(142, 141, 138, 1) 0%, rgba(216, 195, 165, 1) 100%);
@@ -98,6 +98,7 @@ nav ul.hide {
 }
 
 /*----------- MAIN --------------*/
+
 /*----------- Home Page --------------*/
 
 main figure.photo {
@@ -219,35 +220,35 @@ main figure.photo {
 }
 
 /*----------Temples Page------------------*/
-.templedata{
-    display:grid;
-grid-template-columns: 1fr;
-  width: 100%;
+.templedata {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
 }
 
 .templedata article {
     width: auto;
     margin: 2rem 2%;
-    padding:5px;
-    border:3px solid #508991;
+    padding: 5px;
+    border: 3px solid #508991;
     border-radius: 10px;
 }
 
-.templedata h2{
+.templedata h2 {
     font-size: 24px;
     text-align: center;
     padding: 0;
-    margin-top:0;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
-.templedata p{
-    margin-bottom:8px;
-} 
+.templedata p {
+    margin-bottom: 8px;
+}
 
-.templedata li{
-    font-size:small;
-    margin-bottom:5px;
+.templedata li {
+    font-size: small;
+    margin-bottom: 5px;
 }
 
 .templedata article img {
@@ -272,7 +273,8 @@ grid-template-columns: 1fr;
 
 /* -------------- Form -------------- */
 
-main h1, main h3 {
+main h1,
+main h3 {
     text-align: center;
 }
 
@@ -474,10 +476,10 @@ textarea {
 }
 
 .temple-weather {
-        text-align: center;
-        padding: 5px;
-        margin-bottom: 5px;
-    }
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
 
 .temple-weather div {
     border: solid;
@@ -497,6 +499,13 @@ textarea {
     margin-bottom: 10px;
 }
 
+/* ----- temple missionaries ---- */
+
+.temple-miss figure.photo img {
+    width: 100%;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #8e8d8a;
@@ -513,4 +522,4 @@ footer {
     height: 0;
     clear: both;
     visibility: hidden;
-  }
+}
