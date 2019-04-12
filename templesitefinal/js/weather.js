@@ -1,7 +1,7 @@
 let weatherRequest = new XMLHttpRequest();
 
 
-weatherRequest.open('GET','http://api.openweathermap.org/data/2.5/weather?id=2650435&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
+weatherRequest.open('GET','//api.openweathermap.org/data/2.5/weather?id=2650435&appid=2be184dbacae081dacf9bde2487c043c&units=imperial', true);
 
 //london = 2650435
 //preston = 2639912
