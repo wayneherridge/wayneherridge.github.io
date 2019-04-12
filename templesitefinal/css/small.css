@@ -134,7 +134,7 @@ main figure.photo img {
 
 .sec2 {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 10px;
     border: 1px solid #000;
     box-shadow: 0 0 30px #fff;
@@ -156,7 +156,7 @@ main figure.photo img {
 
 .sec2 ul {
     padding: 0 0 5px 5px;
-    font-size: 12px;
+    font-size: 12px;text-align: center;
 }
 
 .sec2 ul li {
@@ -485,6 +485,7 @@ textarea {
     border: solid;
     border-radius: 10px;
     margin: 5px;
+    padding: 2px;
 }
 
 /* ------------- Receptions -------------*/
@@ -506,6 +507,15 @@ textarea {
     padding-bottom: 5px;
     padding-left: 5px;
 }
+
+main .temple-services {
+    background-color: #eae7dc;
+}
+
+.references ul li{
+    margin: 5px;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #8e8d8a;

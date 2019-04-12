@@ -6,7 +6,7 @@
     <meta name="description" content="Temple Inn and Suite Site">
     <meta name="author" content="Wayne Herridge">
 
-    <title>Temples | Temple Inn and Suite</title>
+    <title>Reservations | Temple Inn and Suite</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -70,8 +70,8 @@
             <fieldset>
                 <legend>Temple Information</legend>
                 
-                <label class="top">Temple Location
-                    <input list="location" name="location" placeholder="Select Temple &#9662;">
+                <label class="top">Temple Location *
+                    <input list="location" name="location" placeholder="Select Temple &#9662;" required>
                     <datalist id="location">
                         <option value="London England">
                         <option value="Preston England">
@@ -80,13 +80,13 @@
                     </datalist>
                 </label>
                 
-                <label class="top">Reservation Date <input type="date" name="resdate"></label>
+                <label class="top">Reservation Date * <input type="date" name="resdate" required></label>
                 
-                <label class="top">Number of Rooms (1-10) - <span id="ratingvalue">0</span>
-                    <input type="range" id="roomno" value="0" name="roomno" min="0" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
+                <label class="top">Number of Rooms (1-10) * - <span id="ratingvalue">0</span>
+                    <input type="range" id="roomno" value="0" name="roomno" min="0" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" required></label>
                 
-                <label class="top">Type of Room
-                    <select name="region">
+                <label class="top" >Type of Room *
+                    <select name="region" required>
                         <option value="" disabled selected>Select Room Type ... &#9662;</option>
                         <option value="single">Single</option>
                         <option value="double">Double</option>
@@ -111,31 +111,13 @@
             <input type="submit" value="Book my Accomodation" class="submitBtn">
         </form>
 
-        <div class="row">
-            <section class="sec5">
-                <h3>Address</h3>
-                <p>4800 Montgomery Ln #300</p>
-                <p>Bethesda</p>
-                <p>MD 20814</p>
-            </section>
-
-            <section class="sec6">
-                <h3>Map</h3>
-                <iframe width='100%' height='100%' id='mapcanvas' src='https://maps.google.com/maps?q=md%2020814&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
-                    <div class="zxos8_gm"><a href="https://www.xpediatyre.co.uk/clients/">XpediaTyre</a></div>
-                    <div style='overflow:hidden;'>
-                        <div id='gmap_canvas' style='height:100%;width:100%;'></div>
-                    </div>
-                    <div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div>
-                </iframe>
-            </section>
-        </div>
+        
 
     </main>
 
     <!-- FOOTER HERE -->
     <footer>
-        Wayne Herridge &bull; <span id="currentDate"></span> &bull; <a href="#">Reference Page</a>
+        Wayne Herridge &bull; <span id="currentDate"></span> &bull; <a href="references.html">Reference Page</a>
     </footer>
     <script src="js/script.js"></script>
 </body>

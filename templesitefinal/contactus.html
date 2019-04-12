@@ -6,7 +6,7 @@
     <meta name="description" content="Temple Inn and Suite Site">
     <meta name="author" content="Wayne Herridge">
 
-    <title>Wedding Receptions | Temple Inn and Suite</title>
+    <title>Contact Us | Temple Inn and Suite</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -85,28 +85,25 @@
             </section>
         </div>
         
+        <div class="column">
         <form method="get" action="enquirythanks.html">
                 
             <fieldset>
                 <legend>Your Details</legend>
-
                 <label class="top">Full Name *<input type="text" name="fullname" pattern="[A-Za-z].{5,}" required></label>
                 
-                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
-                <label class="top">Phone *<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Email *<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Your enquiry/question <textarea name="info" rows="3" cols="20" wrap="hard"></textarea></label>
                 
-                <label class="top">Home State/Country *<input type="text" name="state" required></label>
-
-                <label class="top">Special Accomodations/Comments<textarea name="info" rows="3" cols="20" wrap="hard"></textarea></label>
             </fieldset>
-            <input type="submit" value="Book my Accomodation" class="submitBtn">
+            <input type="submit" value="Send us your comment" class="submitBtn">
         </form>
-
+        </div>
     </main>
 
     <!-- FOOTER HERE -->
     <footer>
-        Wayne Herridge &bull; <span id="currentDate"></span> &bull; <a href="#">Reference Page</a>
+        Wayne Herridge &bull; <span id="currentDate"></span> &bull; <a href="references.html">Reference Page</a>
     </footer>
     <script src="js/script.js"></script>
 </body>
